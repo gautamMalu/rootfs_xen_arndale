@@ -1,0 +1,4 @@
+deb http://ports.ubuntu.com/ utopic main
+deb http://repo.linaro.org/ubuntu/linaro-overlay utopic main
+deb http://ports.ubuntu.com/ubuntu-ports/ utopic universe
+deb-src http://repo.linaro.org/ubuntu/linaro-overlay utopic main

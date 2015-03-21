@@ -1,0 +1,5 @@
+1e23f34f977a622bcdd3a2de0f429201  usr/share/doc/libfile-desktopentry-perl/changelog.Debian.gz
+791d9f8882ab4bb325fe4129c1fcf6b7  usr/share/doc/libfile-desktopentry-perl/copyright
+69b2566421e472366e719f73c5ab1846  usr/share/lintian/overrides/libfile-desktopentry-perl
+ed1aa6a1edf91aec4608d86a661e1b0f  usr/share/man/man3/File::DesktopEntry.3pm.gz
+515f1a49bb04e52299308406dc510e7a  usr/share/perl5/File/DesktopEntry.pm

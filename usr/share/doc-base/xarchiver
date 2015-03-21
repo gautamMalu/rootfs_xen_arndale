@@ -1,0 +1,9 @@
+Document: xarchiver
+Title: Debian Xarchiver Manual
+Author: Giuseppe Torelli <colossus73@gmail.com>
+Abstract: This manual describes the basic UI elements of Xarchiver.
+Section: File Management
+
+Format: HTML
+Index: /usr/share/doc/xarchiver/html/index.html
+Files: /usr/share/doc/xarchiver/html/*.html

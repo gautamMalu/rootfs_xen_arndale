@@ -1,0 +1,6 @@
+auto
+/etc/ld.so.conf.d/arm-linux-gnueabihf_mirclient8driver.conf
+
+/usr/lib/arm-linux-gnueabihf/mir/client8driver/mesa/ld.so.conf
+500
+

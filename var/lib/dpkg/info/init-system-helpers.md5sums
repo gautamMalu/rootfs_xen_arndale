@@ -1,0 +1,7 @@
+520765667c96e198d35d12e3d72d11e8  usr/bin/deb-systemd-helper
+cfed5e74d13a990b460c08298a2d41d4  usr/bin/deb-systemd-invoke
+8e2a9346ccee0083f7721222da66edc9  usr/share/doc/init-system-helpers/changelog.gz
+550ef2327a7be2e71f13444ee6e56ab0  usr/share/doc/init-system-helpers/copyright
+84080577f78ec76ac54179517c8b4cf6  usr/share/lintian/overrides/init-system-helpers
+2193d3e3827c1a3062127a84479180b3  usr/share/man/man1/deb-systemd-helper.1p.gz
+4d45cea8a2b8c07570150f14734b4966  usr/share/man/man1/deb-systemd-invoke.1p.gz

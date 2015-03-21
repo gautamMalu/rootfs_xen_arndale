@@ -1,0 +1,62 @@
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy:send_creds: failed at sendmsg: Invalid argument
+cgproxy:complete_dbus_request: Error sending pid over SCM_CREDENTIAL
+cgproxy:chown_main: error completing dbus request
+cgproxy: Failed to open connection to unix:path=/sys/fs/cgroup/cgmanager.lower/sock: Failed to connect to socket /sys/fs/cgroup/cgmanager.lower/sock: No such file or directory
+cgproxy: Failed to set up as proxy

@@ -1,0 +1,199 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.17.0-00001-g158a1a9-dirty (slabs@slabs-UX31E) (gcc version 4.8.3 20140401 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04) ) #2 SMP Tue Mar 3 17:56:43 IST 2015
+[    0.000000] CPU: ARMv7 Processor [410fc0f4] revision 4 (ARMv7), cr=50c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+[    0.000000] Machine model: XENVM-4.5
+[    0.000000] cma: Reserved 128 MiB at 58000000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 131072
+[    0.000000] free_area_init_node: node 0, pgdat 8084e600, node_mem_map 97bb9000
+[    0.000000]   Normal zone: 1024 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 131072 pages, LIFO batch:31
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv0.2 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] PERCPU: Embedded 9 pages/cpu @97bab000 s14208 r8192 d14464 u36864
+[    0.000000] pcpu-alloc: s14208 r8192 d14464 u36864 alloc=9*4096
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line: earlyprintk=xenboot console=hvc0 rootwait rw root=/dev/xvda debug loglevel=10
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 379432K/524288K available (5207K kernel code, 388K rwdata, 2428K rodata, 469K init, 440K bss, 144856K reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xffe00000   (2048 kB)
+    vmalloc : 0xa0800000 - 0xff000000   (1512 MB)
+    lowmem  : 0x80000000 - 0xa0000000   ( 512 MB)
+    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+    modules : 0x7f800000 - 0x7fe00000   (   6 MB)
+      .text : 0x80008000 - 0x8077cf1c   (7636 kB)
+      .init : 0x8077d000 - 0x807f2780   ( 470 kB)
+      .data : 0x807f4000 - 0x80855080   ( 389 kB)
+       .bss : 0x80855080 - 0x808c3290   ( 441 kB)
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=2 to nr_cpu_ids=1.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] Architected cp15 timer(s) running at 24.00MHz (virt).
+[    0.000003] sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 2863311519744ns
+[    0.000012] Switching to timer-based delay loop, resolution 41ns
+[    0.000169] Console: colour dummy device 80x30
+[    0.000182] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=120000)
+[    0.000193] pid_max: default: 32768 minimum: 301
+[    0.000264] Security Framework initialized
+[    0.000273] SELinux:  Initializing.
+[    0.000302] SELinux:  Starting in permissive mode
+[    0.000328] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000335] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000745] CPU: Testing write buffer coherency: ok
+[    0.000768] ftrace: allocating 26699 entries in 53 pages
+[    0.022160] /cpus/cpu@0 missing clock-frequency property
+[    0.022172] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.022212] Xen 4.5 support found, events_irq=31 gnttab_frame=0x38000000
+[    0.022230] Please upgrade your Xen.
+If your platform has any non-coherent DMA devices, they won't work properly.
+[    0.022432] xen:grant_table: Grant tables using version 1 layout
+[    0.022469] Grant table initialized
+[    0.022509] xen:events: Using FIFO-based ABI
+[    0.022522] Xen: initializing cpu0
+[    0.022595] Setting up static identity map for 0x404e68c8 - 0x404e6914
+[    0.023355] Brought up 1 CPUs
+[    0.023363] SMP: Total of 1 processors activated.
+[    0.023370] CPU: All CPU(s) started in SVC mode.
+[    0.024344] VFP support v0.3: implementor 41 architecture 4 part 30 variant f rev 0
+[    0.026494] xor: measuring software checksum speed
+[    0.072092]    arm4regs  :  2487.200 MB/sec
+[    0.122188]    8regs     :  2394.400 MB/sec
+[    0.172273]    32regs    :  2000.000 MB/sec
+[    0.172279] xor: using function: arm4regs (2487.200 MB/sec)
+[    0.172303] pinctrl core: initialized pinctrl subsystem
+[    0.172574] regulator-dummy: no parameters
+[    0.173211] NET: Registered protocol family 16
+[    0.174582] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.175922] xenbus: xs_reset_watches failed: -38
+[    0.177024] hw-breakpoint: Failed to enable monitor mode on CPU 0.
+[    0.177041] EXYNOS: PMU not supported
+[    0.267528] raid6: int32x1    238 MB/s
+[    0.352789] raid6: int32x2    358 MB/s
+[    0.438001] raid6: int32x4    409 MB/s
+[    0.523046] raid6: int32x8    528 MB/s
+[    0.523055] raid6: using algorithm int32x8 (528 MB/s)
+[    0.523062] raid6: using intx1 recovery algorithm
+[    0.523172] xen:balloon: Initialising balloon driver
+[    0.532393] xen_balloon: Initialising balloon driver
+[    0.539277] SCSI subsystem initialized
+[    0.539463] libata version 3.00 loaded.
+[    0.539750] usbcore: registered new interface driver usbfs
+[    0.539815] usbcore: registered new interface driver hub
+[    0.539943] usbcore: registered new device driver usb
+[    0.540603] Advanced Linux Sound Architecture Driver Initialized.
+[    0.541146] NetLabel: Initializing
+[    0.541154] NetLabel:  domain hash size = 128
+[    0.541161] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.541208] NetLabel:  unlabeled traffic allowed by default
+[    0.541396] Switched to clocksource arch_sys_counter
+[    0.581271] NET: Registered protocol family 2
+[    0.581800] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.581839] TCP bind hash table entries: 4096 (order: 4, 81920 bytes)
+[    0.581909] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.581937] TCP: reno registered
+[    0.581946] UDP hash table entries: 256 (order: 1, 12288 bytes)
+[    0.581965] UDP-Lite hash table entries: 256 (order: 1, 12288 bytes)
+[    0.582116] NET: Registered protocol family 1
+[    0.583590] RPC: Registered named UNIX socket transport module.
+[    0.583599] RPC: Registered udp transport module.
+[    0.583604] RPC: Registered tcp transport module.
+[    0.583611] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.584507] futex hash table entries: 256 (order: 2, 16384 bytes)
+[    0.584554] audit: initializing netlink subsys (disabled)
+[    0.584583] audit: type=2000 audit(0.565:1): initialized
+[    0.585300] VFS: Disk quotas dquot_6.5.2
+[    0.585335] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.585802] NFS: Registering the id_resolver key type
+[    0.585826] Key type id_resolver registered
+[    0.585831] Key type id_legacy registered
+[    0.585865] jffs2: version 2.2. (NAND) (SUMMARY)  \xffffffc2\xffffffa9 2001-2006 Red Hat, Inc.
+[    0.585954] fuse init (API version 7.23)
+[    0.586066] msgmni has been set to 997
+[    0.586156] SELinux:  Registering netfilter hooks
+[    0.587409] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[    0.587423] io scheduler noop registered
+[    0.587433] io scheduler deadline registered
+[    0.587449] io scheduler cfq registered (default)
+[    0.597329] Console: switching to colour frame buffer device 100x37
+[    0.599898] xen:xen_evtchn: Event-channel device installed
+[    0.633683] console [hvc0] enabled
+[    0.633743] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    0.634678] [drm] Initialized drm 1.1.0 20060810
+[    0.639739] brd: module loaded
+[    0.642334] loop: module loaded
+[    0.662269] mtdoops: mtd device (mtddev=name/number) must be supplied
+[    0.662325] tun: Universal TUN/TAP device driver, 1.6
+[    0.662346] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.662489] xen_netfront: Initialising Xen virtual ethernet driver
+[    0.674458] usbcore: registered new interface driver asix
+[    0.674536] usbcore: registered new interface driver ax88179_178a
+[    0.674608] usbcore: registered new interface driver cdc_ether
+[    0.674686] usbcore: registered new interface driver dm9601
+[    0.674748] usbcore: registered new interface driver net1080
+[    0.674810] usbcore: registered new interface driver cdc_subset
+[    0.674879] usbcore: registered new interface driver zaurus
+[    0.674939] usbcore: registered new interface driver MOSCHIP usb-ethernet driver
+[    0.675034] usbcore: registered new interface driver cdc_ncm
+[    0.675155] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.675182] ehci-exynos: EHCI EXYNOS driver
+[    0.675239] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.675281] ohci-exynos: OHCI EXYNOS driver
+[    0.675439] usbcore: registered new interface driver usb-storage
+[    0.675729] mousedev: PS/2 mouse device common for all mice
+[    0.724695] blkfront: xvda: flush diskcache: enabled; persistent grants: enabled; indirect descriptors: enabled;
+[    0.727858]  xvda: unknown partition table
+[    0.731262] input: Xen Virtual Keyboard as /devices/virtual/input/input0
+[    0.731667] input: Xen Virtual Pointer as /devices/virtual/input/input1
+[    0.742838] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+[    0.743027] Synopsys Designware Multimedia Card Interface Driver
+[    0.743321] usbcore: registered new interface driver usbhid
+[    0.743345] usbhid: USB HID core driver
+[    0.748912] ion_chunk_heap_create: base 1442840576 size 4194304 align 16384
+[    0.839135] ashmem: initialized
+[    0.839231] logger: created 256K log 'log_main'
+[    0.839343] logger: created 256K log 'log_events'
+[    0.839435] logger: created 256K log 'log_radio'
+[    0.839525] logger: created 256K log 'log_system'
+[    0.840051] oprofile: no performance counters
+[    0.840147] oprofile: using timer interrupt.
+[    0.840309] TCP: cubic registered
+[    0.840324] Initializing XFRM netlink socket
+[    0.840367] NET: Registered protocol family 10
+[    0.840908] NET: Registered protocol family 17
+[    0.840948] NET: Registered protocol family 15
+[    0.840991] Bridge firewalling registered
+[    0.841041] Key type dns_resolver registered
+[    0.841123] Registering SWP/SWPB emulation handler
+[    0.841685] Btrfs loaded
+[    0.941537] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    0.941678] ALSA device list:
+[    0.941692]   No soundcards found.
+[    0.942560] EXT3-fs (xvda): error: couldn't mount because of unsupported optional features (240)
+[    0.942837] EXT2-fs (xvda): error: couldn't mount because of unsupported optional features (240)
+[    0.966128] EXT4-fs (xvda): mounted filesystem with ordered data mode. Opts: (null)
+[    0.966191] VFS: Mounted root (ext4 filesystem) on device 202:0.
+[    0.966509] Freeing unused kernel memory: 468K (8077d000 - 807f2000)
+[    1.274777] random: init urandom read with 29 bits of entropy available
+[    1.630746] init: plymouth-upstart-bridge main process (1100) terminated with status 1
+[    1.630832] init: plymouth-upstart-bridge main process ended, respawning
+[    1.656627] init: plymouth-upstart-bridge main process (1116) terminated with status 1
+[    1.656713] init: plymouth-upstart-bridge main process ended, respawning
+[    1.670549] init: plymouth-upstart-bridge main process (1120) terminated with status 1
+[    1.670623] init: plymouth-upstart-bridge main process ended, respawning
+[    1.683003] init: ureadahead main process (1102) terminated with status 5
+[    2.052770] init: cgmanager main process (1152) terminated with status 1
+[    2.052859] init: cgmanager main process ended, respawning
+[    2.293080] init: cgproxy main process (1203) terminated with status 1
+[    2.293160] init: cgproxy main process ended, respawning
+[    2.830904] systemd-udevd[1258]: starting version 208
+[    4.606260] random: nonblocking pool is initialized
+[   20.922353] init: failsafe main process (1723) killed by TERM signal

@@ -1,0 +1,4 @@
+2b5062458cd3e9eb6383dec95216781d  usr/lib/gvfs/gvfsd-fuse
+9f0a9290331959aa6fb985dd6857d8bb  usr/share/doc/gvfs-fuse/NEWS.gz
+334978aba9b1a12476f5620e5826b4ad  usr/share/doc/gvfs-fuse/copyright
+8166c5414108573ffa29deef341d8195  usr/share/lintian/overrides/gvfs-fuse

@@ -1,0 +1,6 @@
+Xsession: X session started for linaro at Thu Jan  1 09:00:28 TLT 1970
+localuser:linaro being added to access control list
+** Message: main.vala:99: Session is LXDE
+** Message: main.vala:100: DE is LXDE
+** Message: main.vala:131: log directory: /home/linaro/.cache/lxsession/LXDE
+** Message: main.vala:132: log path: /home/linaro/.cache/lxsession/LXDE/run.log

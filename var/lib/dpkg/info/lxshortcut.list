@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/bin
+/usr/bin/lxshortcut
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/lxshortcut.1.gz
+/usr/share/doc
+/usr/share/doc/lxshortcut
+/usr/share/doc/lxshortcut/copyright
+/usr/share/applications
+/usr/share/applications/lxshortcut.desktop
+/usr/share/doc/lxshortcut/changelog.Debian.gz

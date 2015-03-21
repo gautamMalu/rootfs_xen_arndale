@@ -1,0 +1,341 @@
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/3e:e3:80:6b:7c:25
+Sending on   LPF/eth0/3e:e3:80:6b:7c:25
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x75ef0080)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/ba:8c:eb:ea:06:3c
+Sending on   LPF/eth0/ba:8c:eb:ea:06:3c
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x757d609f)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/da:31:9b:f0:15:f0
+Sending on   LPF/eth0/da:31:9b:f0:15:f0
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x59a66898)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/72:57:c6:42:75:17
+Sending on   LPF/eth0/72:57:c6:42:75:17
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x64b3b686)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8 (xid=0x64b3b686)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x64b3b686)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 40855 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/72:57:c6:42:75:17
+Sending on   LPF/eth0/72:57:c6:42:75:17
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x6338c4a9)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/da:fc:72:5e:44:d0
+Sending on   LPF/eth0/da:fc:72:5e:44:d0
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x7ff2ebab)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/66:4d:48:7c:70:7b
+Sending on   LPF/eth0/66:4d:48:7c:70:7b
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x5b9c5093)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4 (xid=0x5b9c5093)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x5b9c5093)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 34551 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/66:4d:48:7c:70:7b
+Sending on   LPF/eth0/66:4d:48:7c:70:7b
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x42e8a8d8)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/36:87:57:bc:38:1c
+Sending on   LPF/eth0/36:87:57:bc:38:1c
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x569f8182)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/ce:b3:57:e3:1e:4b
+Sending on   LPF/eth0/ce:b3:57:e3:1e:4b
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x46412c88)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/92:d5:61:94:80:c5
+Sending on   LPF/eth0/92:d5:61:94:80:c5
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x1b9e7834)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/4a:f3:24:4d:ae:5e
+Sending on   LPF/eth0/4a:f3:24:4d:ae:5e
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x253042ab)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/ae:53:f7:0d:d4:75
+Sending on   LPF/eth0/ae:53:f7:0d:d4:75
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x607e27ad)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:39:51:ac
+Sending on   LPF/eth0/00:16:3e:39:51:ac
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x6d02c507)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:60:c4:cb
+Sending on   LPF/eth0/00:16:3e:60:c4:cb
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x52211009)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:60:c4:cb
+Sending on   LPF/eth0/00:16:3e:60:c4:cb
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x71d96d03)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:2c:e0:84
+Sending on   LPF/eth0/00:16:3e:2c:e0:84
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x1b38a93e)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:7c:56:53
+Sending on   LPF/eth0/00:16:3e:7c:56:53
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x66471e34)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:3e:80:4d
+Sending on   LPF/eth0/00:16:3e:3e:80:4d
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x2c9e7787)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:0c:04:c3
+Sending on   LPF/eth0/00:16:3e:0c:04:c3
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x16cf8d5b)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x5ae88cfc)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x59769153)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x7784d09c)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x1579fdae)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:04:00:2e
+Sending on   LPF/eth0/00:16:3e:04:00:2e
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x6fec81eb)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:08:27:71
+Sending on   LPF/eth0/00:16:3e:08:27:71
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x2692f268)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:5a:ce:c9
+Sending on   LPF/eth0/00:16:3e:5a:ce:c9
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x56a5ec21)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x56a5ec21)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x56a5ec21)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x6f49ede3)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x6f49ede3)
+DHCPOFFER of 192.168.1.17 from 192.168.1.1
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 36431 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:5a:ce:c9
+Sending on   LPF/eth0/00:16:3e:5a:ce:c9
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x3ad42260)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:43:0c:c0
+Sending on   LPF/eth0/00:16:3e:43:0c:c0
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x1bb95fc6)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:47:7d:61
+Sending on   LPF/eth0/00:16:3e:47:7d:61
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x4cea27eb)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:09:f1:d5
+Sending on   LPF/eth0/00:16:3e:09:f1:d5
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x4d1a22cf)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:4e:0c:4b
+Sending on   LPF/eth0/00:16:3e:4e:0c:4b
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x65609c2f)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:05:4a:7d
+Sending on   LPF/eth0/00:16:3e:05:4a:7d
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x50390945)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:7b:86:19
+Sending on   LPF/eth0/00:16:3e:7b:86:19
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x7cc8de68)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:18:3b:14
+Sending on   LPF/eth0/00:16:3e:18:3b:14
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x2b405646)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:65:3a:93
+Sending on   LPF/eth0/00:16:3e:65:3a:93
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 192.168.1.1 port 67 (xid=0x21ea6e9c)

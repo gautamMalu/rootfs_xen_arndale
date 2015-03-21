@@ -1,0 +1,5 @@
+49ad0449eca6c3bd3d47b329de622d04  usr/lib/arm-linux-gnueabihf/systemd-shim
+fcee1a5e5f69d88e7c9afdfdf7feb789  usr/lib/systemd/ntp-units.d/systemd-shim.list
+d6029011b09e5e2bb6a61720106f4daf  usr/share/dbus-1/system-services/org.freedesktop.systemd1.service
+7b25c2c0812fe4e6f9738830e5ec0cce  usr/share/doc/systemd-shim/changelog.Debian.gz
+552f959e774fe8d16c330fcd04bd8ef8  usr/share/doc/systemd-shim/copyright

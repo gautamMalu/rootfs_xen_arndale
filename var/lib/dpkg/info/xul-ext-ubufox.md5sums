@@ -1,0 +1,11 @@
+237f125865bdfaef2fe6d96bd5d786ce  usr/share/doc/xul-ext-ubufox/changelog.Debian.gz
+355e99a408b1f6b7476ba4ca21859ac3  usr/share/doc/xul-ext-ubufox/copyright
+3424997061523b34beb5c4f877c8fd8c  usr/share/doc/xul-ext-ubufox/example-homepage.properties
+4ab120308ce1143038c7bf5a65d83d5f  usr/share/xul-ext/ubufox/chrome.manifest
+59005372b70fbc71e603a8deb6d081b7  usr/share/xul-ext/ubufox/chrome/ubufox.jar
+42a239d141f62f440536d1413b625f27  usr/share/xul-ext/ubufox/components/AboutStartpage.js
+bcac10e3a137d210ae13e93622c9c45f  usr/share/xul-ext/ubufox/components/UpdateNotifier.js
+508adfbccfb250d0508ed9ee0ff8f9eb  usr/share/xul-ext/ubufox/defaults/preferences/ubufox.js
+494b8c050bfbdd536dcd4fe9066e034e  usr/share/xul-ext/ubufox/defaults/preferences/ubuntu-mods.js
+3571d9f99e3fcc660468af6bc9a1a36b  usr/share/xul-ext/ubufox/install.rdf
+fe7b0eb9a5169919266f8f10b444e0e2  usr/share/xul-ext/ubufox/scripts/check-component-enabled.py

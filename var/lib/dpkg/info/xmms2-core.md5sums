@@ -1,0 +1,16 @@
+b008ff25c58a7d2540ee41f1c9128801  usr/bin/xmms2-launcher
+13cda7b9a768c8114b6e143f30978d37  usr/bin/xmms2d
+07065cd824b1b6fd3e36386201e15947  usr/lib/xmms2/libxmms_diskwrite.so
+9bc4493750d62f84026c7eee0a5aa246  usr/lib/xmms2/libxmms_equalizer.so
+cfab6266b83ceb688a0238ee2faf6ef4  usr/lib/xmms2/libxmms_file.so
+7b5ac60c6223a041e690d63e2aede5d9  usr/lib/xmms2/libxmms_null.so
+6fc0a3d6003189da4bc4953ee9ddbfae  usr/lib/xmms2/libxmms_nulstripper.so
+ae2dc96d0c28d3cb44e4963273571221  usr/lib/xmms2/libxmms_replaygain.so
+5035d9efe6b943af79aeb24a0facd0d6  usr/lib/xmms2/libxmms_wave.so
+2576e8504c809f7fae483486537f76f0  usr/share/doc/xmms2-core/NEWS.Debian.gz
+6c9c567cac285500412e66e738f3965f  usr/share/doc/xmms2-core/changelog.Debian.gz
+810f3611a307671d9a27ec599ce382ef  usr/share/doc/xmms2-core/copyright
+d1dd713453a047436d79195baba98078  usr/share/lintian/overrides/xmms2-core
+080539f3cdd839eac25ca2d5cb191493  usr/share/man/man1/xmms2-launcher.1.gz
+42fcd2e8ba128dcc4a0e36e64e9201bb  usr/share/man/man1/xmms2d.1.gz
+24223a831139969bfe48e3c55e36fdfa  usr/share/xmms2/silence-cellule_snippet.ogg

@@ -1,0 +1,4 @@
+9da049c8c68d1ae7d9fa999b0b2127a5  usr/bin/dbus-launch
+d387860c5aeedf35ba93a36a5044a28e  usr/share/doc/dbus-x11/copyright
+803663c38d276a2ba59eb2e32afa07d3  usr/share/lintian/overrides/dbus-x11
+0798eb36241bd40e9a7ce65442d5dd1f  usr/share/man/man1/dbus-launch.1.gz

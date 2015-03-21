@@ -1,0 +1,8 @@
+d0c6d3a7f35a745297781149fade4031  lib/arm-linux-gnueabihf/security/pam_gnome_keyring.so
+e166011281158eaa1c64baaa52efccc2  usr/share/doc/libpam-gnome-keyring/AUTHORS
+6fa96b79ff43babc2126853d7f3d3d4d  usr/share/doc/libpam-gnome-keyring/NEWS.gz
+929cc66e4295e31be5af348183f5537d  usr/share/doc/libpam-gnome-keyring/README
+20a9aaf0f0f007fd7ad485336f6a5217  usr/share/doc/libpam-gnome-keyring/README.Debian
+611198157e88e42fc540050317e24a16  usr/share/doc/libpam-gnome-keyring/changelog.Debian.gz
+389b474fa85618e5b839ae06ddc08c49  usr/share/doc/libpam-gnome-keyring/copyright
+e95a4eeeb6e509e387a78d8c81c1e653  usr/share/pam-configs/gnome-keyring

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ];
+then
+    update-alternatives --force --install \
+        /etc/ld.so.conf.d/arm-linux-gnueabihf_mirclient8driver.conf \
+        arm-linux-gnueabihf_mirclient8driver_conf \
+        /usr/lib/arm-linux-gnueabihf/mir/client8driver/mesa/ld.so.conf \
+        500
+
+    LDCONFIG_NOTRIGGER=y ldconfig
+fi
+
+
+
+exit 0

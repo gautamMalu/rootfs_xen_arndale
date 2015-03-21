@@ -1,0 +1,133 @@
+[    28.358] 
+X.Org X Server 1.16.0
+Release Date: 2014-07-16
+[    28.358] X Protocol Version 11, Revision 0
+[    28.358] Build Operating System: Linux 3.2.0-67-highbank armv7l Ubuntu
+[    28.359] Current Operating System: Linux linaro-lxde 3.17.0-00001-g158a1a9-dirty #2 SMP Tue Mar 3 17:56:43 IST 2015 armv7l
+[    28.359] Kernel command line: earlyprintk=xenboot console=hvc0 rootwait rw root=/dev/xvda debug loglevel=10
+[    28.359] Build Date: 10 September 2014  01:16:38PM
+[    28.370] xorg-server 2:1.16.0-1ubuntu1 (For technical support please see http://www.ubuntu.com/support) 
+[    28.370] Current version of pixman: 0.32.4
+[    28.370] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    28.371] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    28.372] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Jan  1 09:00:28 1970
+[    28.387] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    28.409] (==) No Layout section.  Using the first Screen section.
+[    28.409] (==) No screen section available. Using defaults.
+[    28.409] (**) |-->Screen "Default Screen Section" (0)
+[    28.409] (**) |   |-->Monitor "<default monitor>"
+[    28.424] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    28.424] (==) Automatically adding devices
+[    28.424] (==) Automatically enabling devices
+[    28.424] (==) Automatically adding GPU devices
+[    28.472] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    28.473] 	Entry deleted from font path.
+[    28.473] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    28.473] 	Entry deleted from font path.
+[    28.473] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    28.473] 	Entry deleted from font path.
+[    28.479] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    28.479] 	Entry deleted from font path.
+[    28.479] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    28.479] 	Entry deleted from font path.
+[    28.479] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    28.479] (==) ModulePath set to "/usr/lib/arm-linux-gnueabihf/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[    28.480] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    28.480] (II) Loader magic: 0x76f59f30
+[    28.480] (II) Module ABI versions:
+[    28.480] 	X.Org ANSI C Emulation: 0.4
+[    28.480] 	X.Org Video Driver: 18.0
+[    28.481] 	X.Org XInput driver : 21.0
+[    28.481] 	X.Org Server Extension : 8.0
+[    28.482] (II) LoadModule: "glx"
+[    28.507] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    28.776] (II) Module glx: vendor="X.Org Foundation"
+[    28.781] 	compiled for 1.16.0, module version = 1.0.0
+[    28.781] 	ABI class: X.Org Server Extension, version 8.0
+[    28.782] (==) AIGLX enabled
+[    28.783] (==) Matched modesetting as autoconfigured driver 0
+[    28.783] (==) Matched fbdev as autoconfigured driver 1
+[    28.783] (==) Assigned the driver to the xf86ConfigLayout
+[    28.783] (II) LoadModule: "modesetting"
+[    28.794] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    29.126] (II) Module modesetting: vendor="X.Org Foundation"
+[    29.126] 	compiled for 1.16.0, module version = 0.9.0
+[    29.126] 	Module class: X.Org Video Driver
+[    29.126] 	ABI class: X.Org Video Driver, version 18.0
+[    29.127] (II) LoadModule: "fbdev"
+[    29.141] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    29.148] (II) Module fbdev: vendor="X.Org Foundation"
+[    29.149] 	compiled for 1.16.0, module version = 0.4.4
+[    29.149] 	Module class: X.Org Video Driver
+[    29.149] 	ABI class: X.Org Video Driver, version 18.0
+[    29.149] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    29.150] (II) FBDEV: driver for framebuffer: fbdev
+[    29.150] (++) using VT number 7
+
+[    29.170] (WW) Falling back to old probe method for modesetting
+[    29.171] (EE) open /dev/dri/card0: No such file or directory
+[    29.171] (WW) Falling back to old probe method for fbdev
+[    29.171] (II) Loading sub module "fbdevhw"
+[    29.171] (II) LoadModule: "fbdevhw"
+[    29.180] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    29.185] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    29.185] 	compiled for 1.16.0, module version = 0.0.2
+[    29.185] 	ABI class: X.Org Video Driver, version 18.0
+[    29.186] (EE) open /dev/fb0: No such file or directory
+[    29.186] (EE) No devices detected.
+[    29.187] (==) Matched modesetting as autoconfigured driver 0
+[    29.187] (==) Matched fbdev as autoconfigured driver 1
+[    29.187] (==) Assigned the driver to the xf86ConfigLayout
+[    29.187] (II) LoadModule: "modesetting"
+[    29.196] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    29.196] (II) Module modesetting: vendor="X.Org Foundation"
+[    29.197] 	compiled for 1.16.0, module version = 0.9.0
+[    29.197] 	Module class: X.Org Video Driver
+[    29.197] 	ABI class: X.Org Video Driver, version 18.0
+[    29.197] (II) UnloadModule: "modesetting"
+[    29.197] (II) Unloading modesetting
+[    29.198] (II) Failed to load module "modesetting" (already loaded, 1995983624)
+[    29.198] (II) LoadModule: "fbdev"
+[    29.207] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    29.207] (II) Module fbdev: vendor="X.Org Foundation"
+[    29.207] 	compiled for 1.16.0, module version = 0.4.4
+[    29.207] 	Module class: X.Org Video Driver
+[    29.207] 	ABI class: X.Org Video Driver, version 18.0
+[    29.207] (II) UnloadModule: "fbdev"
+[    29.208] (II) Unloading fbdev
+[    29.208] (II) Failed to load module "fbdev" (already loaded, 1995983624)
+[    29.208] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    29.208] (II) FBDEV: driver for framebuffer: fbdev
+[    29.209] (++) using VT number 7
+
+[    29.209] (WW) xf86OpenConsole: setpgid failed: Operation not permitted
+[    29.209] (WW) xf86OpenConsole: setsid failed: Operation not permitted
+[    29.214] (WW) Falling back to old probe method for modesetting
+[    29.214] (EE) open /dev/dri/card0: No such file or directory
+[    29.214] (WW) Falling back to old probe method for fbdev
+[    29.214] (II) Loading sub module "fbdevhw"
+[    29.214] (II) LoadModule: "fbdevhw"
+[    29.228] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    29.228] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    29.229] 	compiled for 1.16.0, module version = 0.0.2
+[    29.229] 	ABI class: X.Org Video Driver, version 18.0
+[    29.229] (EE) open /dev/fb0: No such file or directory
+[    29.229] (EE) No devices detected.
+[    29.229] (EE) 
+Fatal server error:
+[    29.235] (EE) no screens found(EE) 
+[    29.236] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[    29.236] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[    29.237] (EE) 
+[    29.264] (EE) Server terminated with error (1). Closing log file.

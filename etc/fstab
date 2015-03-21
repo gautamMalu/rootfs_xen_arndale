@@ -1,0 +1,3 @@
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+xenfs   /proc/xen    xenfs    defaults   0   0
+

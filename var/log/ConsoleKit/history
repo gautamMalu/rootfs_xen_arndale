@@ -1,0 +1,183 @@
+946695503.978 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+946695504.210 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T02:58:24.181864Z'
+946695504.223 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+946695874.825 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T02:58:24.181864Z'
+946695874.834 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+946695979.086 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+946695979.321 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T03:06:19.295195Z'
+946695979.332 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+946696246.066 type=SEAT_ADDED : seat-id='Seat2' seat-kind=1
+946696246.074 type=SEAT_SESSION_ADDED : seat-id='Seat2' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/ssh' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2000-01-01T03:10:46.056074Z'
+946696246.224 type=SEAT_ADDED : seat-id='Seat3' seat-kind=1
+946696246.235 type=SEAT_SESSION_ADDED : seat-id='Seat3' session-id='Session3' session-type='' session-x11-display='localhost:10.0' session-x11-display-device='' session-display-device='/dev/pts/4' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2000-01-01T03:10:46.209663Z'
+946697297.140 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T03:06:19.295195Z'
+946697297.160 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+946697348.756 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+946697349.048 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T03:29:09.016173Z'
+946697349.063 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+946697437.095 type=SEAT_ADDED : seat-id='Seat2' seat-kind=1
+946697437.101 type=SEAT_SESSION_ADDED : seat-id='Seat2' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/ssh' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2000-01-01T03:30:37.086927Z'
+946697437.346 type=SEAT_ADDED : seat-id='Seat3' seat-kind=1
+946697437.353 type=SEAT_SESSION_ADDED : seat-id='Seat3' session-id='Session3' session-type='' session-x11-display='localhost:10.0' session-x11-display-device='' session-display-device='/dev/pts/2' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2000-01-01T03:30:37.337388Z'
+946698570.704 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T03:29:09.016173Z'
+946698570.714 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+946698627.483 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+946698627.776 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T03:50:27.744761Z'
+946698627.792 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+946698771.101 type=SEAT_ADDED : seat-id='Seat2' seat-kind=1
+946698771.105 type=SEAT_SESSION_ADDED : seat-id='Seat2' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/ssh' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2000-01-01T03:52:51.095298Z'
+946698771.225 type=SEAT_ADDED : seat-id='Seat3' seat-kind=1
+946698771.234 type=SEAT_SESSION_ADDED : seat-id='Seat3' session-id='Session3' session-type='' session-x11-display='localhost:10.0' session-x11-display-device='' session-display-device='/dev/pts/2' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2000-01-01T03:52:51.217505Z'
+1424446404.941 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2000-01-01T03:50:27.744761Z'
+1424446404.950 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+1424446465.103 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+1424446465.407 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2015-02-20T15:34:25.371115Z'
+1424446465.423 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1424446536.520 type=SEAT_ADDED : seat-id='Seat2' seat-kind=1
+1424446536.525 type=SEAT_SESSION_ADDED : seat-id='Seat2' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/ssh' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2015-02-20T15:35:36.511284Z'
+1424446536.740 type=SEAT_ADDED : seat-id='Seat3' seat-kind=1
+1424446536.761 type=SEAT_SESSION_ADDED : seat-id='Seat3' session-id='Session3' session-type='' session-x11-display='localhost:10.0' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='2015-02-20T15:35:36.721768Z'
+1424446925.818 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session4' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2015-02-20T15:42:05.794998Z'
+1424446933.201 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session4' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2015-02-20T15:42:05.794998Z'
+1424446936.524 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session5' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2015-02-20T15:42:16.511163Z'
+1424447040.585 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session5' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2015-02-20T15:42:16.511163Z'
+1424447045.491 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='2015-02-20T15:34:25.371115Z'
+1424447045.509 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+28.138 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+28.852 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:28.827636Z'
+28.861 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1424450777.131 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:28.827636Z'
+1424450777.169 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+32.743 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+43.670 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:43.654206Z'
+43.679 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+2251.499 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:43.654206Z'
+2251.520 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+10.552 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+10.699 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:10.684008Z'
+10.707 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+754.872 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:10.684008Z'
+754.901 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+26.468 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+27.121 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:27.102590Z'
+27.130 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+276.445 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:27.102590Z'
+276.464 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+25.393 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+25.508 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:25.493340Z'
+25.516 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+113.105 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:25.493340Z'
+113.137 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+50.025 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+50.928 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:50.908852Z'
+50.937 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+187.073 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:50.908852Z'
+187.110 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+41.663 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+42.372 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:42.353606Z'
+42.381 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1424424857.222 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:42.353606Z'
+1424424857.256 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+14.055 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+14.172 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:14.157897Z'
+14.181 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+85.045 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:01:25.032028Z'
+111.450 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:01:25.032028Z'
+63.920 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+64.602 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:01:04.582667Z'
+64.611 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+497.980 type=SEAT_ADDED : seat-id='Seat2' seat-kind=1
+497.987 type=SEAT_SESSION_ADDED : seat-id='Seat2' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/ssh' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='1970-01-01T00:08:17.972247Z'
+498.073 type=SEAT_ADDED : seat-id='Seat3' seat-kind=1
+498.079 type=SEAT_SESSION_ADDED : seat-id='Seat3' session-id='Session3' session-type='' session-x11-display='localhost:10.0' session-x11-display-device='' session-display-device='/dev/pts/2' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='1970-01-01T00:08:18.065140Z'
+566.181 type=SEAT_SESSION_REMOVED : seat-id='Seat3' session-id='Session3' session-type='' session-x11-display='localhost:10.0' session-x11-display-device='' session-display-device='/dev/pts/2' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='1970-01-01T00:08:18.065140Z'
+566.201 type=SEAT_REMOVED : seat-id='Seat3' seat-kind=1
+566.208 type=SEAT_SESSION_REMOVED : seat-id='Seat2' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/ssh' session-remote-host-name='192.168.1.33' session-is-local=FALSE session-unix-user=1000 session-creation-time='1970-01-01T00:08:17.972247Z'
+566.224 type=SEAT_REMOVED : seat-id='Seat2' seat-kind=1
+1424424942.880 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:01:04.582667Z'
+1424424942.916 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+16.865 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+17.534 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:17.516778Z'
+17.543 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1424395303.078 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:17.516778Z'
+1424395303.099 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+11.039 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+12.943 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:12.928486Z'
+12.952 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+386.261 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:06:26.247755Z'
+1424395041.118 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:12.928486Z'
+1424395041.167 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+1424395041.239 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/pts/0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:06:26.247755Z'
+12.857 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+12.984 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:12.969153Z'
+12.992 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1424395216.471 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:12.969153Z'
+1424395216.503 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+26.540 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+26.657 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:26.642409Z'
+26.666 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+236.995 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:03:56.981781Z'
+389.016 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session3' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:06:29.002229Z'
+1424481329.253 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session3' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:06:29.002229Z'
+1424481329.381 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:03:56.981781Z'
+1424481329.447 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:26.642409Z'
+1424481329.468 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+26.540 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+27.222 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:27.204012Z'
+27.231 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+205.624 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:27.204012Z'
+205.649 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+45.112 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+45.809 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:45.786923Z'
+45.820 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+473.632 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:45.786923Z'
+473.662 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+26.016 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+26.171 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:26.157226Z'
+26.180 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+139.458 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:26.157226Z'
+139.474 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+20.237 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+20.376 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:20.357921Z'
+20.387 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+182.566 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+183.494 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:03:03.475678Z'
+215.286 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:03:35.272400Z'
+276.517 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:03:35.272400Z'
+286.637 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session3' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:04:46.623658Z'
+288.514 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session3' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:04:46.623658Z'
+288.585 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:03:03.475678Z'
+23.250 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+23.418 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:23.404096Z'
+23.427 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+88.597 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:23.404096Z'
+88.619 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+43.348 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+43.459 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:43.445333Z'
+43.468 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+307.692 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:43.445333Z'
+307.714 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+40.323 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+41.127 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:41.104542Z'
+41.137 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+521.015 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:41.104542Z'
+521.046 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+30.078 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+31.749 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:31.713731Z'
+31.758 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+254.629 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:31.713731Z'
+254.673 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+28.439 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+28.567 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:28.548471Z'
+28.578 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+245.939 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:28.548471Z'
+245.978 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+27.573 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+28.379 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:28.355565Z'
+28.388 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+206.746 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:03:26.730411Z'
+3290.695 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session3' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:54:50.642335Z'
+3294.163 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session3' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='1970-01-01T00:54:50.642335Z'
+3294.183 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/hvc0' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:03:26.730411Z'
+3294.409 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=1000 session-creation-time='1970-01-01T00:00:28.355565Z'
+3294.419 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''

@@ -1,0 +1,567 @@
+Package: edk2-uefi
+Format: 3.0 (quilt)
+Binary: uefi-image-arndale, uefi-image-origen, uefi-image-panda, uefi-image-vexpress
+Architecture: armhf
+Version: 1:0.2+git12+20140416+48c8a38-0linaro1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8.0.0), python, uuid-dev
+Package-List:
+ uefi-image-arndale deb admin extra
+ uefi-image-origen deb admin extra
+ uefi-image-panda deb admin extra
+ uefi-image-vexpress deb admin extra
+Priority: extra
+Section: admin
+Directory: pool/main/e/edk2-uefi
+Files: 
+ 6260d78ada98c5cda9d1003d4b3d8e5c 1529 edk2-uefi_0.2+git12+20140416+48c8a38-0linaro1.dsc
+ 24ad2ae0c06aea9f43f4c3c6b4a8bfc6 4854332 edk2-uefi_0.2+git12+20140416+48c8a38.orig.tar.xz
+ 692d1a89c0259d3372c27cc41c11b940 3827 edk2-uefi_0.2+git12+20140416+48c8a38-0linaro1.debian.tar.gz
+Checksums-Sha1: 
+ 441f235d34d4fc74f059b16199ce8a962bf69758 1529 edk2-uefi_0.2+git12+20140416+48c8a38-0linaro1.dsc
+ ad53caa628edaaccf6f9e42df405a76492d58b24 4854332 edk2-uefi_0.2+git12+20140416+48c8a38.orig.tar.xz
+ b680f8e9bb2c67cc32493cc4ee5a5e33c823853c 3827 edk2-uefi_0.2+git12+20140416+48c8a38-0linaro1.debian.tar.gz
+Checksums-Sha256: 
+ a3097e220367c15c4c2ed07d3329acb73532850ee6c4a24bd47ff047afc2397f 1529 edk2-uefi_0.2+git12+20140416+48c8a38-0linaro1.dsc
+ e8e5b561707c2c51f194a3656b383d1d92ae9e4f1758e5612a33924c7e3b1b31 4854332 edk2-uefi_0.2+git12+20140416+48c8a38.orig.tar.xz
+ 0df945dc8ea1c6ce9ec6133f506e04443e7b7ba0bd203d47dc3391c7cb3806e5 3827 edk2-uefi_0.2+git12+20140416+48c8a38-0linaro1.debian.tar.gz
+
+Package: linaro-meta
+Format: 3.0 (native)
+Binary: linaro-nano, linaro-nano-dev, linaro-headless, linaro-development, linaro-x11-base, linaro-xfce-base, linaro-alip, linaro-graphical-engineering, linaro-ubuntu-desktop, linaro-lamp-server, linaro-headless-dev, linaro-development-dev, linaro-x11-base-dev, linaro-xfce-base-dev, linaro-alip-dev, linaro-graphical-engineering-dev, linaro-ubuntu-desktop-dev, linaro-lamp-server-dev
+Architecture: armhf arm64
+Version: 040-utopic1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ linaro-alip deb metapackages optional arch=armhf,arm64
+ linaro-alip-dev deb metapackages optional arch=armhf,arm64
+ linaro-development deb metapackages optional arch=armhf,arm64
+ linaro-development-dev deb metapackages optional arch=armhf,arm64
+ linaro-graphical-engineering deb metapackages optional arch=armhf,arm64
+ linaro-graphical-engineering-dev deb metapackages optional arch=armhf,arm64
+ linaro-headless deb metapackages optional arch=armhf,arm64
+ linaro-headless-dev deb metapackages optional arch=armhf,arm64
+ linaro-lamp-server deb metapackages optional arch=armhf,arm64
+ linaro-lamp-server-dev deb metapackages optional arch=armhf,arm64
+ linaro-nano deb metapackages optional arch=armhf,arm64
+ linaro-nano-dev deb metapackages optional arch=armhf,arm64
+ linaro-ubuntu-desktop deb metapackages optional arch=armhf,arm64
+ linaro-ubuntu-desktop-dev deb metapackages optional arch=armhf,arm64
+ linaro-x11-base deb metapackages optional arch=armhf,arm64
+ linaro-x11-base-dev deb metapackages optional arch=armhf,arm64
+ linaro-xfce-base deb metapackages optional arch=armhf,arm64
+ linaro-xfce-base-dev deb metapackages optional arch=armhf,arm64
+Priority: optional
+Section: metapackages
+Directory: pool/main/l/linaro-meta
+Files: 
+ f78d90f75f773ee40017282cf7436585 2424 linaro-meta_040-utopic1.dsc
+ f3636eaa4d5dc483a050906f6c1a7dba 20500 linaro-meta_040-utopic1.tar.xz
+Checksums-Sha1: 
+ 885e0e96b1606c2f0a8f1be5581060eb9128879b 2424 linaro-meta_040-utopic1.dsc
+ 09250e387db1415690884b15e2772783dfe8da39 20500 linaro-meta_040-utopic1.tar.xz
+Checksums-Sha256: 
+ d6a8eda6cc51474743939673943ac4c619f00d552b7d1fd1e4da21ab11d9b7dc 2424 linaro-meta_040-utopic1.dsc
+ 839c49846b3d6ffae1798872477b12730b6e600e9d5801ddb06901b6e862899c 20500 linaro-meta_040-utopic1.tar.xz
+
+Package: linaro-overlay
+Format: 1.0
+Binary: linaro-overlay, linaro-overlay-minimal
+Architecture: all
+Version: 1112.4
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7)
+Package-List:
+ linaro-overlay deb utils optional arch=all
+ linaro-overlay-minimal deb utils optional arch=all
+Priority: optional
+Section: utils
+Directory: pool/main/l/linaro-overlay
+Files: 
+ c9fab9eecc6167a7e0facb40de2ebf24 1489 linaro-overlay_1112.4.dsc
+ c86c02bedcd7fb11943e85f89323ca27 6277 linaro-overlay_1112.4.tar.gz
+Checksums-Sha1: 
+ ecd33213ec704d3178d8d6bb53faccaa5d0b0d96 1489 linaro-overlay_1112.4.dsc
+ 33dc4d78c29d821866ee7e68b6a1831adf9633fa 6277 linaro-overlay_1112.4.tar.gz
+Checksums-Sha256: 
+ 1059359ee19b0e8b680cfbcb263569028d4c6ff6bc2a471509e96ed583b49aaf 1489 linaro-overlay_1112.4.dsc
+ 9207fc6d2c4dc5962088169b899273af114daa4e76d186adabb2fa7c01ff6da5 6277 linaro-overlay_1112.4.tar.gz
+
+Package: linux-firmware
+Format: 1.0
+Binary: linux-firmware, nic-firmware, scsi-firmware
+Architecture: all
+Version: 1.138.1+linaro2
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.6.1
+Vcs-Git: git://kernel.ubuntu.com/ubuntu/linux-firmware.git
+Build-Depends: debhelper (>= 4.0.0), rsync, gcc
+Package-List:
+ linux-firmware deb misc optional arch=all
+ nic-firmware udeb debian-installer optional arch=all
+ scsi-firmware udeb debian-installer optional arch=all
+Priority: optional
+Section: misc
+Directory: pool/main/l/linux-firmware
+Files: 
+ 341e38dc137157e288af921e0cc0606f 1163 linux-firmware_1.138.1+linaro2.dsc
+ bd34188eadf1e97fdb877e7f2ad55a00 30895305 linux-firmware_1.138.1+linaro2.tar.gz
+Checksums-Sha1: 
+ 7709dd0d3a5713ab7bd1e4781bc9664765c46576 1163 linux-firmware_1.138.1+linaro2.dsc
+ 334eb66515521d0748e88a655ba5743de4c506bd 30895305 linux-firmware_1.138.1+linaro2.tar.gz
+Checksums-Sha256: 
+ a204d46851f863e4144710afd70ad526005ea55a7e08a6b9aca3d6316b4eec57 1163 linux-firmware_1.138.1+linaro2.dsc
+ 4d9cb1d31d0bcdc9802914c1fbdf6c92615447ffb01b980c9201cb125bfc56a5 30895305 linux-firmware_1.138.1+linaro2.tar.gz
+
+Package: linux-linaro-vexpress64-3.18
+Format: 1.0
+Binary: linux-linaro-tools-3.18.0-1-linaro-vexpress64, linux-image-3.18.0-1-linaro-vexpress64, linux-image-extra-3.18.0-1-linaro-vexpress64, linux-headers-3.18.0-1-linaro-vexpress64, linux-image-3.18.0-1-linaro-vexpress64-dbgsym, kernel-image-3.18.0-1-linaro-vexpress64-di
+Architecture: armel armhf arm64
+Version: 3.18.0-1.1ubuntu1~ci+141210134101
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.8.4.0
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1--ci+141210134101
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], device-tree-compiler [powerpc], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, bc
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Package-List:
+ kernel-image-3.18.0-1-linaro-vexpress64-di udeb debian-installer extra
+ linux-headers-3.18.0-1-linaro-vexpress64 deb devel optional
+ linux-image-3.18.0-1-linaro-vexpress64 deb kernel optional
+ linux-image-3.18.0-1-linaro-vexpress64-dbgsym deb devel optional
+ linux-image-extra-3.18.0-1-linaro-vexpress64 deb kernel optional
+ linux-linaro-tools-3.18.0-1-linaro-vexpress64 deb devel optional
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-linaro-vexpress64-3.18
+Files: 
+ 4292daee44e1a05e3de43e8c4bda320e 2370 linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1~ci+141210134101.dsc
+ 9b7ab07eaad1dacb0c91cbbbd7af4b42 124451212 linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1~ci+141210134101.tar.gz
+Checksums-Sha1: 
+ 30856f836d9c36f1545fa3ad6e89a00b6a4dbe01 2370 linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1~ci+141210134101.dsc
+ 01f03bb733bf7ee1d97c64737fa8f1bc38252e1d 124451212 linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1~ci+141210134101.tar.gz
+Checksums-Sha256: 
+ 2639a100ae2caab26c664d2153beacf392c75956833e4c2eb568e796c967608f 2370 linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1~ci+141210134101.dsc
+ 9f9e5f0fc7fbed0684472988cde3204fb7792da30052ff9f786bcdbfcc1ed032 124451212 linux-linaro-vexpress64-3.18_3.18.0-1.1ubuntu1~ci+141210134101.tar.gz
+
+Package: linux-linaro-vexpress64-3.19
+Format: 1.0
+Binary: linux-linaro-tools-3.19.0-1-linaro-vexpress64, linux-image-3.19.0-1-linaro-vexpress64, linux-image-extra-3.19.0-1-linaro-vexpress64, linux-headers-3.19.0-1-linaro-vexpress64, linux-image-3.19.0-1-linaro-vexpress64-dbgsym, kernel-image-3.19.0-1-linaro-vexpress64-di
+Architecture: armel armhf arm64
+Version: 3.19.0-1.1ubuntu1~ci+150220073108
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.8.4.0
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1--ci+150220073108
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], device-tree-compiler [powerpc], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, bc
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Package-List:
+ kernel-image-3.19.0-1-linaro-vexpress64-di udeb debian-installer extra
+ linux-headers-3.19.0-1-linaro-vexpress64 deb devel optional
+ linux-image-3.19.0-1-linaro-vexpress64 deb kernel optional
+ linux-image-3.19.0-1-linaro-vexpress64-dbgsym deb devel optional
+ linux-image-extra-3.19.0-1-linaro-vexpress64 deb kernel optional
+ linux-linaro-tools-3.19.0-1-linaro-vexpress64 deb devel optional
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-linaro-vexpress64-3.19
+Files: 
+ 91a9f101ecb6d80f39bfba3c60604852 2370 linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1~ci+150220073108.dsc
+ 113c08aba7788ddef6c8a11b87eb7051 125318181 linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1~ci+150220073108.tar.gz
+Checksums-Sha1: 
+ fec98d352c71da29ec24dd2e056574cd83e84bf1 2370 linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1~ci+150220073108.dsc
+ d8630e7e00c9930e6b0cb4a8af651264a3c05806 125318181 linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1~ci+150220073108.tar.gz
+Checksums-Sha256: 
+ f496697fd7df0c639431b105d4e95abca09ab131dd9b1d691d43a509227706e5 2370 linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1~ci+150220073108.dsc
+ ae194f7f31f519a4f49bb7551f0ae368adcea7445f1723e731286db8b62be3fc 125318181 linux-linaro-vexpress64-3.19_3.19.0-1.1ubuntu1~ci+150220073108.tar.gz
+
+Package: linux-meta-linaro-am335x
+Format: 1.0
+Binary: linux-headers-linaro-am335x, linux-image-linaro-am335x, linux-tools-linaro-am335x
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-am335x deb devel optional arch=armhf
+ linux-image-linaro-am335x deb metapackages optional arch=armhf
+ linux-tools-linaro-am335x deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-am335x
+Files: 
+ b194f659aeee414565cccd676c694efa 1775 linux-meta-linaro-am335x_3.18.0.1.1.dsc
+ ac7fc69748d8dfb30b0174fb5172354d 3697 linux-meta-linaro-am335x_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ d7fc9ef99aa14c8303662aa3b33bf5204c53fe30 1775 linux-meta-linaro-am335x_3.18.0.1.1.dsc
+ 69848a7443dd4ca3d120e52b910b28d73fc499aa 3697 linux-meta-linaro-am335x_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ f9bf27123f964f392e365351f640ec010041ad2341cdf6c7e9088d52d2a7eb3b 1775 linux-meta-linaro-am335x_3.18.0.1.1.dsc
+ 60331b693f0e378151ce72967280790107e4f7833ef7551c4057e0bedbf76395 3697 linux-meta-linaro-am335x_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-arndale
+Format: 1.0
+Binary: linux-headers-linaro-arndale, linux-image-linaro-arndale, linux-tools-linaro-arndale
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-arndale deb devel optional arch=armhf
+ linux-image-linaro-arndale deb metapackages optional arch=armhf
+ linux-tools-linaro-arndale deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-arndale
+Files: 
+ cd68218671e379add8896cd99f1a6dd6 1785 linux-meta-linaro-arndale_3.18.0.1.1.dsc
+ 72bc03a570d1b5da38202895c715827c 3658 linux-meta-linaro-arndale_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ 779c9b3cfcaa4440d1e443347ad714680901d562 1785 linux-meta-linaro-arndale_3.18.0.1.1.dsc
+ 9ad4480d9a1d4d34518dfddebc47db6240ef6140 3658 linux-meta-linaro-arndale_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ ca3ed773e539558835175e40adc2041bdcb2acea24d81231decc8266852c5530 1785 linux-meta-linaro-arndale_3.18.0.1.1.dsc
+ 5279f4c778b9a8855c703561e04af93dc3c181865d30196a1cb41754bdec93f2 3658 linux-meta-linaro-arndale_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-arndale-octa
+Format: 1.0
+Binary: linux-headers-linaro-arndale-octa, linux-image-linaro-arndale-octa, linux-tools-linaro-arndale-octa
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-arndale-octa deb devel optional arch=armhf
+ linux-image-linaro-arndale-octa deb metapackages optional arch=armhf
+ linux-tools-linaro-arndale-octa deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-arndale-octa
+Files: 
+ 7492a07baa98156f71c92e4b5bfbb19e 1835 linux-meta-linaro-arndale-octa_3.18.0.1.1.dsc
+ 3cae2d1c9316a84529154f70171e4cd0 3677 linux-meta-linaro-arndale-octa_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ 111f9bc8d20ea56740660ce42ca6bfc82e549e50 1835 linux-meta-linaro-arndale-octa_3.18.0.1.1.dsc
+ bb188b6370f3fa518ed2984822e1c09e2ef391df 3677 linux-meta-linaro-arndale-octa_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ c8bf86bc236eccf2730e6755343d419a41fde71ff442b0c36e0646650c83ec3d 1835 linux-meta-linaro-arndale-octa_3.18.0.1.1.dsc
+ 4f466308fcbe1969f9b29b33f69e5d233752c22314f648e4f9a961c9e5c9a2b0 3677 linux-meta-linaro-arndale-octa_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-highbank
+Format: 1.0
+Binary: linux-headers-linaro-highbank, linux-image-linaro-highbank, linux-tools-linaro-highbank
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-highbank deb devel optional arch=armhf
+ linux-image-linaro-highbank deb metapackages optional arch=armhf
+ linux-tools-linaro-highbank deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-highbank
+Files: 
+ 50522b2fd27769053459f97787385778 1795 linux-meta-linaro-highbank_3.18.0.1.1.dsc
+ 3a6675d56379b5ef9126aa1424e5fb25 3698 linux-meta-linaro-highbank_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ a565d2122d09e3656901ebed480c023064c712c5 1795 linux-meta-linaro-highbank_3.18.0.1.1.dsc
+ f995f84af6c0a8c9dee644185d068b739f25b032 3698 linux-meta-linaro-highbank_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ d0fc4eed22f5bfa443f0bf6cec324c1c3c09abc6893ad6ca5e802663bc0815a0 1795 linux-meta-linaro-highbank_3.18.0.1.1.dsc
+ cc5b855b2375c696a96ac5d1827e3bc8f107737fc0c95cf08ed304baac33a400 3698 linux-meta-linaro-highbank_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-lt-origen
+Format: 1.0
+Binary: linux-headers-linaro-lt-origen, linux-image-linaro-lt-origen, linux-tools-linaro-lt-origen
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-lt-origen deb devel optional arch=armhf
+ linux-image-linaro-lt-origen deb metapackages optional arch=armhf
+ linux-tools-linaro-lt-origen deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-lt-origen
+Files: 
+ 7176ab9a41be5c5452b872a8622b6039 1805 linux-meta-linaro-lt-origen_3.18.0.1.1.dsc
+ e31301dd5782d097cb3de9163c4ab9cd 3696 linux-meta-linaro-lt-origen_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ eaa68279e84311ec4fc267a8b7eca041f988fdc1 1805 linux-meta-linaro-lt-origen_3.18.0.1.1.dsc
+ bbecafe42db7dcb3a47492f6ded9e7715fa3fc3c 3696 linux-meta-linaro-lt-origen_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ 17ef14f33a3da4f13fda69b05623bac780bfc11be7b57693d03b1034736ecce0 1805 linux-meta-linaro-lt-origen_3.18.0.1.1.dsc
+ 3b19df657417e0b966c59ff46bcb154b4525badb9098bdd939c0a0b16e14fa6d 3696 linux-meta-linaro-lt-origen_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-lt-vexpress
+Format: 1.0
+Binary: linux-headers-linaro-lt-vexpress, linux-image-linaro-lt-vexpress, linux-tools-linaro-lt-vexpress
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-lt-vexpress deb devel optional arch=armhf
+ linux-image-linaro-lt-vexpress deb metapackages optional arch=armhf
+ linux-tools-linaro-lt-vexpress deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-lt-vexpress
+Files: 
+ 22394de9204aa14e72056952a7adddc8 1825 linux-meta-linaro-lt-vexpress_3.18.0.1.1.dsc
+ 23d61923c73a79212fd9c429945c02fd 3759 linux-meta-linaro-lt-vexpress_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ 998cc3fc6593f27786f3142af539e5c5c8470c53 1825 linux-meta-linaro-lt-vexpress_3.18.0.1.1.dsc
+ dec1ab53436174ae66390b4e5d2cd7de92e2065e 3759 linux-meta-linaro-lt-vexpress_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ c91891f45d442692843199c058ad37eab3b3c0951f12ca04591fef3ba0b91246 1825 linux-meta-linaro-lt-vexpress_3.18.0.1.1.dsc
+ 7d0eaae0c1d6cf999f3ed30c6e6f61a297ba8e9c2f5f0fd9df3520d497f32483 3759 linux-meta-linaro-lt-vexpress_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-midway
+Format: 1.0
+Binary: linux-headers-linaro-midway, linux-image-linaro-midway, linux-tools-linaro-midway
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-midway deb devel optional arch=armhf
+ linux-image-linaro-midway deb metapackages optional arch=armhf
+ linux-tools-linaro-midway deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-midway
+Files: 
+ 0fed5f2cf49328dd673d17309cfe94ee 1775 linux-meta-linaro-midway_3.18.0.1.1.dsc
+ c001032079f7569d04a08641167360dc 3686 linux-meta-linaro-midway_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ 4e235c1325e01c06b015afac0a13e9323d0179e6 1775 linux-meta-linaro-midway_3.18.0.1.1.dsc
+ 559520b232fe20f328fa5eae544e6d5565a4d880 3686 linux-meta-linaro-midway_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ b81b4f237072c479b7aa1093c6cf3215038150f99c9c987569e90b3968b2ee61 1775 linux-meta-linaro-midway_3.18.0.1.1.dsc
+ 5a3ba12da18cb914cbe71b19cd0b5cbeca6524ed43ed96bd17711ceb3cd691f9 3686 linux-meta-linaro-midway_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-omap
+Format: 1.0
+Binary: linux-headers-linaro-omap, linux-image-linaro-omap, linux-tools-linaro-omap
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-omap deb devel optional arch=armhf
+ linux-image-linaro-omap deb metapackages optional arch=armhf
+ linux-tools-linaro-omap deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-omap
+Files: 
+ f2e54d55780f872f1ddd240b5691ffa0 1755 linux-meta-linaro-omap_3.18.0.1.1.dsc
+ 4f132467534e17f392088a1673f445c5 3665 linux-meta-linaro-omap_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ fc4f8127383299aae1d4846e123b28b414a2e73e 1755 linux-meta-linaro-omap_3.18.0.1.1.dsc
+ c07aab52b3db4c8351947b23b3062600bc9701d1 3665 linux-meta-linaro-omap_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ 2f5a51b83db487ce3aab0c04fa9b0f6c0e9fc09e2bc3746792e5416a694411d6 1755 linux-meta-linaro-omap_3.18.0.1.1.dsc
+ fb35121512045b9683aca7cf7a7d2bbcf6a582d0cc2e5691991495a72e30a0dc 3665 linux-meta-linaro-omap_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-origen
+Format: 1.0
+Binary: linux-headers-linaro-origen, linux-image-linaro-origen, linux-tools-linaro-origen
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-origen deb devel optional arch=armhf
+ linux-image-linaro-origen deb metapackages optional arch=armhf
+ linux-tools-linaro-origen deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-origen
+Files: 
+ de072f096d76336aefeaa3ebef4c2cbf 1775 linux-meta-linaro-origen_3.18.0.1.1.dsc
+ e58155555e2d67df9b65c0c8b6c7881a 3714 linux-meta-linaro-origen_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ e9b4c11bc158b15e811f3c3152b39ed17201d083 1775 linux-meta-linaro-origen_3.18.0.1.1.dsc
+ df19f3d6b0fea88d8eedb5c07cb5e3f5ed8adcd5 3714 linux-meta-linaro-origen_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ 41ea787988ed5fe3007231820478baace7a6841a0510bed8c803286f8346f768 1775 linux-meta-linaro-origen_3.18.0.1.1.dsc
+ 01a712212f08a02dfb38daf5d6ca0929fc5f4d3e275f03e74d74d358dd1ee543 3714 linux-meta-linaro-origen_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-u8500
+Format: 1.0
+Binary: linux-headers-linaro-u8500, linux-image-linaro-u8500, linux-tools-linaro-u8500
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-u8500 deb devel optional arch=armhf
+ linux-image-linaro-u8500 deb metapackages optional arch=armhf
+ linux-tools-linaro-u8500 deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-u8500
+Files: 
+ 5c55e27f5747eaa7e42ababdb86bd980 1765 linux-meta-linaro-u8500_3.18.0.1.1.dsc
+ 4dc381be122d95bc0345680a8e9f5f0d 3670 linux-meta-linaro-u8500_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ 2200f03a24d5c4e448d4933efd1b8f8be7d757a3 1765 linux-meta-linaro-u8500_3.18.0.1.1.dsc
+ 0688c4397d28ad628e0682bcad5d7f4abfff226a 3670 linux-meta-linaro-u8500_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ 43fd02e2a587da889e29ec605b75bd22c155664487d1c21602907ad86d3b967c 1765 linux-meta-linaro-u8500_3.18.0.1.1.dsc
+ a4de5e0f5f3710a1ac525a74c459efb51e14e13a36ed0bcad9f8cf50d65f2ea0 3670 linux-meta-linaro-u8500_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-vexpress
+Format: 1.0
+Binary: linux-headers-linaro-vexpress, linux-image-linaro-vexpress, linux-tools-linaro-vexpress
+Architecture: armhf
+Version: 3.18.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-vexpress deb devel optional arch=armhf
+ linux-image-linaro-vexpress deb metapackages optional arch=armhf
+ linux-tools-linaro-vexpress deb metapackages optional arch=armhf
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-vexpress
+Files: 
+ b8e1efb42ac3054e082f0540f6b5d42a 1795 linux-meta-linaro-vexpress_3.18.0.1.1.dsc
+ e4e39d69ba1d8391cdd7cbb13a8bcd5c 3690 linux-meta-linaro-vexpress_3.18.0.1.1.tar.gz
+Checksums-Sha1: 
+ 6a714262bdb04d6dc2b484210b6e27c388645630 1795 linux-meta-linaro-vexpress_3.18.0.1.1.dsc
+ 954ac68669e5a00c7d1358b7cd633d3910d1c683 3690 linux-meta-linaro-vexpress_3.18.0.1.1.tar.gz
+Checksums-Sha256: 
+ f5b6db5ddc172af9edca25694c80196af317d4820329c8138780b7300d3b268f 1795 linux-meta-linaro-vexpress_3.18.0.1.1.dsc
+ bebf6725a22fa3b9993a63f553d59e390d858d011a62963e30a312896e5dc047 3690 linux-meta-linaro-vexpress_3.18.0.1.1.tar.gz
+
+Package: linux-meta-linaro-vexpress64
+Format: 1.0
+Binary: linux-headers-linaro-vexpress64, linux-image-linaro-vexpress64, linux-tools-linaro-vexpress64
+Architecture: arm64
+Version: 3.19.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-vexpress64 deb devel optional arch=arm64
+ linux-image-linaro-vexpress64 deb metapackages optional arch=arm64
+ linux-tools-linaro-vexpress64 deb metapackages optional arch=arm64
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-vexpress64
+Files: 
+ 33e2055903b555eac408c7d8ab8d2aa2 1303 linux-meta-linaro-vexpress64_3.19.0.1.1.dsc
+ 6a5fa06a03055bde0bcb057b99c62374 3665 linux-meta-linaro-vexpress64_3.19.0.1.1.tar.gz
+Checksums-Sha1: 
+ 3dd62664f925e52d586d7374404288d22729f76d 1303 linux-meta-linaro-vexpress64_3.19.0.1.1.dsc
+ ed9882714945aa74d93fa7ee0bebbf722b627b69 3665 linux-meta-linaro-vexpress64_3.19.0.1.1.tar.gz
+Checksums-Sha256: 
+ 862dfb88a8d7ec42016adf38f3f18c3b8f6ecc8e113292a35f8e28ab919d91ad 1303 linux-meta-linaro-vexpress64_3.19.0.1.1.dsc
+ 422c8ec3144f164e92cb59293ef4ecce4cf7c369e5c64fe4b50558af09b6897f 3665 linux-meta-linaro-vexpress64_3.19.0.1.1.tar.gz
+
+Package: qemu-linaro
+Format: 1.0
+Binary: qemu-linaro-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
+Architecture: all amd64 arm armel armhf arm64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 sparc sparc64 s390x
+Version: 2.2.0+git910+gcd2d554-145linaro+utopic
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
+Homepage: https://launchpad.net/qemu-linaro/
+Standards-Version: 3.9.1
+Vcs-Bzr: lp:ubuntu/qemu-linaro
+Build-Depends: debhelper (>= 7.0.50~), libasound2-dev [!kfreebsd-any], libbluetooth-dev [!kfreebsd-any], libbrlapi-dev, libcurl4-gnutls-dev, libfdt-dev, libgnutls-dev, libncurses5-dev, libpixman-1-dev, libpulse-dev, libsasl2-dev, libsdl1.2-dev (>> 1.2.1), libvdeplug2-dev [!kfreebsd-any], libx11-dev, python:any, texinfo, uuid-dev, zlib1g-dev
+Build-Conflicts: oss4-dev
+Package-List:
+ qemu-linaro-keymaps deb misc optional arch=all
+ qemu-system deb misc optional arch=amd64,arm,armel,armhf,arm64,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64,sparc,sparc64
+ qemu-user deb misc optional arch=amd64,arm,armel,armhf,arm64,hppa,i386,ia64,mips,mipsel,powerpc,ppc64,sparc,sparc64
+ qemu-user-static deb misc optional arch=amd64,arm,armel,armhf,arm64,hppa,i386,ia64,mips,mipsel,powerpc,ppc64,sparc,sparc64
+ qemu-utils deb misc optional arch=amd64,arm,armel,armhf,arm64,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64,s390x,sparc,sparc64
+Priority: optional
+Section: misc
+Directory: pool/main/q/qemu-linaro
+Files: 
+ f1827e2b7cca2c99a579f1d3c1f5f197 2848 qemu-linaro_2.2.0+git910+gcd2d554-145linaro+utopic.dsc
+ 5c7bc59f1466fa54d8e1a9e5cd24b022 10824735 qemu-linaro_2.2.0+git910+gcd2d554.orig.tar.gz
+ a74a3214f5f6b8916d881ec773c781d0 13213 qemu-linaro_2.2.0+git910+gcd2d554-145linaro+utopic.diff.gz
+Checksums-Sha1: 
+ 2aade4ceb8778477f15d48ffd314d15c19d924ae 2848 qemu-linaro_2.2.0+git910+gcd2d554-145linaro+utopic.dsc
+ fb7b040ac27352c0983238e76cbc99aca956646c 10824735 qemu-linaro_2.2.0+git910+gcd2d554.orig.tar.gz
+ c09bd30f79426591a9ad72873cf5e67f8b3c8e81 13213 qemu-linaro_2.2.0+git910+gcd2d554-145linaro+utopic.diff.gz
+Checksums-Sha256: 
+ ebe533bce43d72130e6949e3f325d8903f9b31e632a1580fd433757677596416 2848 qemu-linaro_2.2.0+git910+gcd2d554-145linaro+utopic.dsc
+ 0ce9f2187690ffef551ae2d3a15f202c12a011efafd7802d5406dc24b57177cf 10824735 qemu-linaro_2.2.0+git910+gcd2d554.orig.tar.gz
+ 9371aa599f28a40a2aba22f696582a34ef4330480408d13377afbb7cd6f15177 13213 qemu-linaro_2.2.0+git910+gcd2d554-145linaro+utopic.diff.gz
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: xen
+Format: 3.0 (quilt)
+Binary: libxen-4.6, libxenstore3.0, libxen-dev, xenstore-utils, xen-utils-common, xen-utils-4.6, xen-hypervisor-4.6-amd64, xen-system-amd64, xen-hypervisor-4.6-arm64, xen-system-arm64, xen-hypervisor-4.6-armhf, xen-system-armhf
+Architecture: amd64 arm64 armhf i386 all
+Version: 4.5.20150220-28linaro+utopic
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Uploaders: Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>
+Standards-Version: 3.9.4
+Build-Depends: autotools-dev, debhelper (>> 9), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc [i386 amd64], gcc-multilib [i386 amd64], e2fslibs-dev, iasl [i386 amd64], seabios (>= 1.7.4-2~) [i386 amd64], libaio-dev, libfdt-dev [armhf arm64], libglib2.0-dev, liblzma-dev, libncurses5-dev, libyajl-dev, libssl-dev, pkg-config, uuid-dev, zlib1g-dev, libpixman-1-dev
+Package-List:
+ libxen-4.6 deb libs optional arch=amd64,arm64,armhf,i386
+ libxen-dev deb libdevel optional arch=amd64,arm64,armhf,i386
+ libxenstore3.0 deb libs optional arch=amd64,arm64,armhf,i386
+ xen-hypervisor-4.6-amd64 deb kernel optional arch=amd64,i386
+ xen-hypervisor-4.6-arm64 deb kernel optional arch=arm64
+ xen-hypervisor-4.6-armhf deb kernel optional arch=armhf
+ xen-system-amd64 deb kernel optional arch=amd64,i386
+ xen-system-arm64 deb kernel optional arch=arm64
+ xen-system-armhf deb kernel optional arch=armhf
+ xen-utils-4.6 deb kernel optional arch=amd64,arm64,armhf,i386
+ xen-utils-common deb kernel optional arch=all
+ xenstore-utils deb admin optional arch=amd64,arm64,armhf,i386
+Priority: optional
+Section: kernel
+Directory: pool/main/x/xen
+Files: 
+ ace7f47a9bfb0b7d3b12d4dc879fb0da 2720 xen_4.5.20150220-28linaro+utopic.dsc
+ 38295f57fd53206274dfdc0976814241 3495512 xen_4.5.20150220.orig.tar.xz
+ 02aa3042022149af73b78f610f45935d 37872 xen_4.5.20150220-28linaro+utopic.debian.tar.xz
+Checksums-Sha1: 
+ e07a3f5a03fec271dace4ea34016751f8a78948e 2720 xen_4.5.20150220-28linaro+utopic.dsc
+ c180149fc6390f5b098f80ae60c500ab00574901 3495512 xen_4.5.20150220.orig.tar.xz
+ 8d471a1da38f2331a845a7db500039e1c9b2be26 37872 xen_4.5.20150220-28linaro+utopic.debian.tar.xz
+Checksums-Sha256: 
+ b1b0374f30cf28b3b227a3ffe36e5c593aa1d2ad2f224a3b1cb3d685bedd7df9 2720 xen_4.5.20150220-28linaro+utopic.dsc
+ 77234ad4121013c82cfbf36395713ccc987973b385fb71cc2e4cd033cd594820 3495512 xen_4.5.20150220.orig.tar.xz
+ 725e3d1dd54be11126c4c3947c53da8ad28ad5ac63b39762bb3d098e870f16c8 37872 xen_4.5.20150220-28linaro+utopic.debian.tar.xz
+Python-Version: current
+

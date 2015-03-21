@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ];
+then
+    update-alternatives --remove \
+        arm-linux-gnueabihf_mirclient8driver_conf \
+        /usr/lib/arm-linux-gnueabihf/mir/client8driver/mesa/ld.so.conf
+
+    ldconfig
+fi
+
+
+
+exit 0

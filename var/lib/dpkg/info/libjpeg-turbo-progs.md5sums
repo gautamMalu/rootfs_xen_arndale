@@ -1,0 +1,16 @@
+cbe780480596ac4202f384bf116501ea  usr/bin/cjpeg
+3b72a5058ca2374a2257e89be256edcc  usr/bin/djpeg
+1d48688e9eb459a7af8e24238521e11a  usr/bin/exifautotran
+6e14b2ba75e77ba9f7b0aa3b39348653  usr/bin/jpegexiforient
+9ba2238cd5d3c2a5e035a9a0538a88bc  usr/bin/jpegtran
+7bab4d753675004c47236efbbcc25250  usr/bin/rdjpgcom
+85a5ce05112128c3ab8edad487e57914  usr/bin/wrjpgcom
+9590771e9236f80cb1887d8dcf38dcdf  usr/share/doc/libjpeg-turbo-progs/changelog.Debian.gz
+e39223df5fbe3c7cb10afbe26798022c  usr/share/doc/libjpeg-turbo-progs/copyright
+4f23daa25dcaaa8cdda7d102a2eee3ac  usr/share/man/man1/cjpeg.1.gz
+da934253a125fb3895c654a059dd0255  usr/share/man/man1/djpeg.1.gz
+f6837ee9e6ed3d5bcdd239e918f33ed2  usr/share/man/man1/exifautotran.1.gz
+3d44508c906dcd745aec464c63752132  usr/share/man/man1/jpegexiforient.1.gz
+5c128586acae7b776bb2baee760722a4  usr/share/man/man1/jpegtran.1.gz
+4a274186fadefe74268a04ba0f004290  usr/share/man/man1/rdjpgcom.1.gz
+0cbc3fb9311360f21a7588e744c56a51  usr/share/man/man1/wrjpgcom.1.gz

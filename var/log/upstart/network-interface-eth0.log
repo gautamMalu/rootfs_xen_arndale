@@ -1,0 +1,501 @@
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/3e:e3:80:6b:7c:25
+Sending on   LPF/eth0/3e:e3:80:6b:7c:25
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x354ec944)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6 (xid=0x354ec944)
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x354ec944)
+DHCPOFFER of 192.168.1.29 from 192.168.1.1
+DHCPACK of 192.168.1.29 from 192.168.1.1
+bound to 192.168.1.29 -- renewal in 33569 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/4e:09:87:8b:ef:f4
+Sending on   LPF/eth0/4e:09:87:8b:ef:f4
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x7fef8b)
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x7fef8b)
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x7fef8b)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x40a2c4f6)
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x40a2c4f6)
+DHCPOFFER of 192.168.1.29 from 192.168.1.1
+DHCPACK of 192.168.1.29 from 192.168.1.1
+bound to 192.168.1.29 -- renewal in 37506 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/ba:8c:eb:ea:06:3c
+Sending on   LPF/eth0/ba:8c:eb:ea:06:3c
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x14b18c18)
+DHCPREQUEST of 192.168.1.29 on eth0 to 255.255.255.255 port 67 (xid=0x14b18c18)
+DHCPNAK from 192.168.1.1 (xid=0x14b18c18)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x4a3a83dc)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x4a3a83dc)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 32780 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/da:31:9b:f0:15:f0
+Sending on   LPF/eth0/da:31:9b:f0:15:f0
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x41acbf3b)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x41acbf3b)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x41acbf3b)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 33966 seconds.
+ifup: interface eth0 already configured
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/da:fc:72:5e:44:d0
+Sending on   LPF/eth0/da:fc:72:5e:44:d0
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3c1ca003)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3c1ca003)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x3c1ca003)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 36687 seconds.
+ifup: interface eth0 already configured
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/36:87:57:bc:38:1c
+Sending on   LPF/eth0/36:87:57:bc:38:1c
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x4c6b9b2d)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6 (xid=0x4c6b9b2d)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x4c6b9b2d)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 39210 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/ce:b3:57:e3:1e:4b
+Sending on   LPF/eth0/ce:b3:57:e3:1e:4b
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x25a75e1c)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8 (xid=0x25a75e1c)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x25a75e1c)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 42158 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/92:d5:61:94:80:c5
+Sending on   LPF/eth0/92:d5:61:94:80:c5
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x6bb44241)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x6bb44241)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x6bb44241)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 41801 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/4a:f3:24:4d:ae:5e
+Sending on   LPF/eth0/4a:f3:24:4d:ae:5e
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x454ff27b)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5 (xid=0x454ff27b)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x454ff27b)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 34353 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/ae:53:f7:0d:d4:75
+Sending on   LPF/eth0/ae:53:f7:0d:d4:75
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x74afc89f)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x74afc89f)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 33010 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:39:51:ac
+Sending on   LPF/eth0/00:16:3e:39:51:ac
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x2f2a4290)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x2f2a4290)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x5b3ebc3a)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x5b3ebc3a)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 36850 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:60:c4:cb
+Sending on   LPF/eth0/00:16:3e:60:c4:cb
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x7deb27e9)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x7deb27e9)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x7deb27e9)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x79841a15)
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x79841a15)
+DHCPOFFER of 192.168.1.34 from 192.168.1.1
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 38972 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:60:c4:cb
+Sending on   LPF/eth0/00:16:3e:60:c4:cb
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x6b43cd0f)
+DHCPACK of 192.168.1.34 from 192.168.1.1
+bound to 192.168.1.34 -- renewal in 32854 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:2c:e0:84
+Sending on   LPF/eth0/00:16:3e:2c:e0:84
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x1790406d)
+DHCPNAK from 192.168.1.1 (xid=0x1790406d)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x39be42fa)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x39be42fa)
+DHCPOFFER of 192.168.1.13 from 192.168.1.1
+DHCPACK of 192.168.1.13 from 192.168.1.1
+bound to 192.168.1.13 -- renewal in 34826 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:7c:56:53
+Sending on   LPF/eth0/00:16:3e:7c:56:53
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x263cc7f2)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x263cc7f2)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x263cc7f2)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x60294bf8)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x60294bf8)
+DHCPOFFER of 192.168.1.13 from 192.168.1.1
+DHCPACK of 192.168.1.13 from 192.168.1.1
+bound to 192.168.1.13 -- renewal in 32844 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:3e:80:4d
+Sending on   LPF/eth0/00:16:3e:3e:80:4d
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x1e49eaa5)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x1e49eaa5)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x1e49eaa5)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x1e49eaa5)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x26c7b4a4)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x26c7b4a4)
+DHCPOFFER of 192.168.1.13 from 192.168.1.1
+DHCPACK of 192.168.1.13 from 192.168.1.1
+bound to 192.168.1.13 -- renewal in 36593 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:0c:04:c3
+Sending on   LPF/eth0/00:16:3e:0c:04:c3
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x4d2488f3)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x4d2488f3)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x4d2488f3)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x12f7d9bf)
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x12f7d9bf)
+DHCPOFFER of 192.168.1.13 from 192.168.1.1
+DHCPACK of 192.168.1.13 from 192.168.1.1
+bound to 192.168.1.13 -- renewal in 37826 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:0c:04:c3
+Sending on   LPF/eth0/00:16:3e:0c:04:c3
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x18cd2e60)
+DHCPACK of 192.168.1.13 from 192.168.1.1
+bound to 192.168.1.13 -- renewal in 33349 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.13 on eth0 to 255.255.255.255 port 67 (xid=0x361fb33c)
+DHCPNAK from 192.168.1.1 (xid=0x361fb33c)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2e46a899)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x2e46a899)
+DHCPOFFER of 192.168.1.17 from 192.168.1.1
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 43165 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x3d6cc039)
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 40840 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x76039049)
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 36256 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:21:8f:93
+Sending on   LPF/eth0/00:16:3e:21:8f:93
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x36a14a8)
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 36324 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:04:00:2e
+Sending on   LPF/eth0/00:16:3e:04:00:2e
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x2a1c13ca)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x2a1c13ca)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x2a1c13ca)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x405599d8)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x405599d8)
+DHCPOFFER of 192.168.1.17 from 192.168.1.1
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 40569 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:08:27:71
+Sending on   LPF/eth0/00:16:3e:08:27:71
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x6e8b8e28)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x6e8b8e28)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2491f31e)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x2491f31e)
+DHCPOFFER of 192.168.1.17 from 192.168.1.1
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 32463 seconds.
+ifup: interface eth0 already configured
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:43:0c:c0
+Sending on   LPF/eth0/00:16:3e:43:0c:c0
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x7a829b66)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x7a829b66)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x7a829b66)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x65a97088)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x65a97088)
+DHCPOFFER of 192.168.1.17 from 192.168.1.1
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 38216 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:3b:92:4b
+Sending on   LPF/eth0/00:16:3e:3b:92:4b
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x52406437)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x52406437)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x52406437)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2466e94a)
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x2466e94a)
+DHCPOFFER of 192.168.1.17 from 192.168.1.1
+DHCPACK of 192.168.1.17 from 192.168.1.1
+bound to 192.168.1.17 -- renewal in 42458 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:47:7d:61
+Sending on   LPF/eth0/00:16:3e:47:7d:61
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.17 on eth0 to 255.255.255.255 port 67 (xid=0x601eb3b7)
+DHCPNAK from 192.168.1.1 (xid=0x601eb3b7)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x73303956)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x73303956)
+DHCPOFFER of 192.168.1.24 from 192.168.1.1
+DHCPACK of 192.168.1.24 from 192.168.1.1
+bound to 192.168.1.24 -- renewal in 36352 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:09:f1:d5
+Sending on   LPF/eth0/00:16:3e:09:f1:d5
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x36a7603c)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x36a7603c)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x36a7603c)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x403298b7)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x403298b7)
+DHCPOFFER of 192.168.1.24 from 192.168.1.1
+DHCPACK of 192.168.1.24 from 192.168.1.1
+bound to 192.168.1.24 -- renewal in 35139 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:4e:0c:4b
+Sending on   LPF/eth0/00:16:3e:4e:0c:4b
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x6f1c4ace)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x6f1c4ace)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x6f1c4ace)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x288d2962)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x288d2962)
+DHCPOFFER of 192.168.1.24 from 192.168.1.1
+DHCPACK of 192.168.1.24 from 192.168.1.1
+bound to 192.168.1.24 -- renewal in 35540 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:05:4a:7d
+Sending on   LPF/eth0/00:16:3e:05:4a:7d
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x90f57b)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x90f57b)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x90f57b)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3978b657)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x3978b657)
+DHCPOFFER of 192.168.1.24 from 192.168.1.1
+DHCPACK of 192.168.1.24 from 192.168.1.1
+bound to 192.168.1.24 -- renewal in 41053 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:7b:86:19
+Sending on   LPF/eth0/00:16:3e:7b:86:19
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x491596bc)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x491596bc)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x491596bc)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x491596bc)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2b959914)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x2b959914)
+DHCPOFFER of 192.168.1.24 from 192.168.1.1
+DHCPACK of 192.168.1.24 from 192.168.1.1
+bound to 192.168.1.24 -- renewal in 35196 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:18:3b:14
+Sending on   LPF/eth0/00:16:3e:18:3b:14
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x5b58f494)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x5b58f494)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x5b58f494)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x6aab4946)
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x6aab4946)
+DHCPOFFER of 192.168.1.24 from 192.168.1.1
+DHCPACK of 192.168.1.24 from 192.168.1.1
+bound to 192.168.1.24 -- renewal in 34143 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:65:3a:93
+Sending on   LPF/eth0/00:16:3e:65:3a:93
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.24 on eth0 to 255.255.255.255 port 67 (xid=0x4dee7c22)
+DHCPNAK from 192.168.1.1 (xid=0x4dee7c22)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x502ead46)
+DHCPREQUEST of 192.168.1.10 on eth0 to 255.255.255.255 port 67 (xid=0x502ead46)
+DHCPOFFER of 192.168.1.10 from 192.168.1.1
+DHCPACK of 192.168.1.10 from 192.168.1.1
+bound to 192.168.1.10 -- renewal in 34671 seconds.
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:4e:fc:f4
+Sending on   LPF/eth0/00:16:3e:4e:fc:f4
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.10 on eth0 to 255.255.255.255 port 67 (xid=0x55573ae7)
+DHCPREQUEST of 192.168.1.10 on eth0 to 255.255.255.255 port 67 (xid=0x55573ae7)
+DHCPREQUEST of 192.168.1.10 on eth0 to 255.255.255.255 port 67 (xid=0x55573ae7)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3e0d0bcc)
+DHCPREQUEST of 192.168.1.10 on eth0 to 255.255.255.255 port 67 (xid=0x3e0d0bcc)
+DHCPOFFER of 192.168.1.10 from 192.168.1.1
+DHCPACK of 192.168.1.10 from 192.168.1.1
+bound to 192.168.1.10 -- renewal in 42097 seconds.

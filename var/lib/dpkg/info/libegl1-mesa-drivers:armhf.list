@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/egl
+/usr/lib/arm-linux-gnueabihf/egl/egl_gallium.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libegl1-mesa-drivers
+/usr/share/doc/libegl1-mesa-drivers/copyright
+/usr/share/bug
+/usr/share/bug/libegl1-mesa-drivers
+/usr/share/bug/libegl1-mesa-drivers/control
+/usr/share/bug/libegl1-mesa-drivers/script
+/usr/share/doc/libegl1-mesa-drivers/changelog.Debian.gz

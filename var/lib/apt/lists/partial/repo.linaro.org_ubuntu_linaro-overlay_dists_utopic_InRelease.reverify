@@ -1,0 +1,168 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Label: Linaro Overlay (utopic)
+Codename: utopic
+Version: 14.10
+Date: Fri, 20 Feb 2015 11:40:02 UTC
+Architectures: armhf arm64 amd64 i386
+Components: main main/debug
+Description: Linaro utopic cross-built overlay packages
+MD5Sum:
+ cbddf493e575623456c892187d4a11b3 47352 main/binary-armhf/Packages
+ 81f6bed0a9c2ba55c75830838c66f3d7 11287 main/binary-armhf/Packages.gz
+ a8da0e8982d26c3b6e361d2185d9a7c5 10415 main/binary-armhf/Packages.bz2
+ 54973edd9d0a9ce8b1b4df73f575a4ba 138 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
+ bfb143c5b98c04b77c0145bb7de4a488 91045 main/binary-arm64/Packages
+ 6f69b2ddb255c6f21680928135bc5b43 18467 main/binary-arm64/Packages.gz
+ 8a8c0f02a82c5b7cab15d25395072a69 17776 main/binary-arm64/Packages.bz2
+ 7890f9290f1245f783958f196e3d27ed 138 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ caa585bd4777831527225c371582b665 21409 main/binary-amd64/Packages
+ 407e73a2ed7a00efff4b5d94891cb5ee 6400 main/binary-amd64/Packages.gz
+ 384fb2b21924e90e803d2960726d5952 6431 main/binary-amd64/Packages.bz2
+ cbd9d91805993a8380c7ec816a0299f3 138 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ 6f4c452fde23f50177208e938cb80230 8749 main/binary-i386/Packages
+ 75498b431d298c7e9490de7c52d21c62 3271 main/binary-i386/Packages.gz
+ 36d2c13647116eb8911fa74f36d105d2 3379 main/binary-i386/Packages.bz2
+ 1e4c1d284c41b397419c3611a1b19929 137 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
+ 89eededb4528d0ec3973a63043667c5b 31505 main/source/Sources
+ 5b8fc2d7f411ecb15dd94331f4363fa2 7476 main/source/Sources.gz
+ 17cbb95501c56297aa24d87351f6ab11 7155 main/source/Sources.bz2
+ b859f85b3cb0e2d12fb8d71c61108c7a 139 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/binary-armhf/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 main/debug/binary-armhf/Packages.bz2
+ c4ed661f11983265390c28f50dfe5a58 144 main/debug/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/binary-arm64/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 main/debug/binary-arm64/Packages.bz2
+ 0b17e7110d2a381ab581226e8f6f90f0 144 main/debug/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/binary-amd64/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 main/debug/binary-amd64/Packages.bz2
+ cf5765e30927131e9882024efbfa53e5 144 main/debug/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/binary-i386/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 main/debug/binary-i386/Packages.bz2
+ b7ed1a36f9bfbafe4e959c9ba219c82c 143 main/debug/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/source/Sources.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 main/debug/source/Sources.bz2
+ 50c8bd443b04d8b6de88b90f2384fdb1 145 main/debug/source/Release
+SHA1:
+ 35a1122a35d55ac4ee004d7514cc86cf4e999437 47352 main/binary-armhf/Packages
+ 84d0957337b60567c00ddcd169ba39ab61add720 11287 main/binary-armhf/Packages.gz
+ 633a5ca0538dbaad6b0944d6fdf23edfb9a7515f 10415 main/binary-armhf/Packages.bz2
+ 9ff8735f7ab23315b5de23762b0b654dfd0ebddd 138 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
+ 9682e3a8f461b4f30df4f9f84ee4e3dda5173cac 91045 main/binary-arm64/Packages
+ 9e102528f71e7a4f16e3874e9085ff69135de688 18467 main/binary-arm64/Packages.gz
+ 77bc308a43e89464d1f30ffc8e8ca74c789d707e 17776 main/binary-arm64/Packages.bz2
+ bcc6323854e8d23ef05f432d7a05004c6a742bc0 138 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ 051a1afa76d4411ec7182828d11cfbe088418591 21409 main/binary-amd64/Packages
+ 6a42d300084d341fb2afcb547ec1a111ef5fefc6 6400 main/binary-amd64/Packages.gz
+ d0a632e4e5d8fe49357e2ff73f37e3ac379fda05 6431 main/binary-amd64/Packages.bz2
+ 19a381f138a38417705002910e307844f6c5ab1e 138 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ 58758a49c3e92e3cbd00c43b9b895e15ca5674ed 8749 main/binary-i386/Packages
+ d4e952f28bf440c9af4e8b7905ef409e8b89174c 3271 main/binary-i386/Packages.gz
+ 960a5ace113853255a0d614452ffa97e80ebc83d 3379 main/binary-i386/Packages.bz2
+ 5f4b1e05d23b0a974443e904cae6322777eae5dc 137 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
+ 7bdd8193ed9663c838bce2efe6d6a20aafb430d2 31505 main/source/Sources
+ d81b392c9a03a86caa5dc6059b76112c03988195 7476 main/source/Sources.gz
+ 673f8ed4af3ab3818ceba2db980448c410a6f25a 7155 main/source/Sources.bz2
+ 161fa24a922da1167c040d189ae2c2166b7dc5fc 139 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/binary-armhf/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/debug/binary-armhf/Packages.bz2
+ 1d58f17bedb5618e4c987286a9831dc97c37dc00 144 main/debug/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/binary-arm64/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/debug/binary-arm64/Packages.bz2
+ 1737d9850b0be65e45212af232f298252df877f3 144 main/debug/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/binary-amd64/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/debug/binary-amd64/Packages.bz2
+ 2c1b2232b43c3e18943c92795c199144a4f6ffc0 144 main/debug/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/binary-i386/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/debug/binary-i386/Packages.bz2
+ 8cd86c358a04cb9ba26d41573527f56c6d77352a 143 main/debug/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/source/Sources.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/debug/source/Sources.bz2
+ 9a58779fdac0331780d466d58e934af1742e73b6 145 main/debug/source/Release
+SHA256:
+ 8b501ba25f310855fe027388e0110d4b83e4704184ef8cf99bb84e986dc9adcb 47352 main/binary-armhf/Packages
+ 31cd92bc08978cffa19ce2285491e8a6a2d17914989b9093818943f32c5bdd5f 11287 main/binary-armhf/Packages.gz
+ c7d6cb322bdc72c6f6142e447141fb05d5da2ed06708244d5bf7478fd367a5fa 10415 main/binary-armhf/Packages.bz2
+ bdacc9858e6a46666523b1924d6c451b2f94d464e10623fba8f7a8b7731e441b 138 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
+ 88fca96dc9c3412b8dc8ab620b260bdd0e91bc1b9ace9db365adf98220ef55ff 91045 main/binary-arm64/Packages
+ ad62b01e9cabf4be09000ce5284f0dddd5c85627036c33de7974caeb4ff96ac4 18467 main/binary-arm64/Packages.gz
+ 7d2ec055f881c1af9f7b8ec141d60a8c3034cb072e547f9063ec933da5f68695 17776 main/binary-arm64/Packages.bz2
+ 2977e2659d280fd0e738987c1dab7177698467c46847ee521779105ee4971c46 138 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ bd686282f0a2093495a372cb340c6a13e7e9420b74de81b526b33dde34a0c56f 21409 main/binary-amd64/Packages
+ d2d3afcd4797d77697b607da5bacbff0c5302d08d8f5429b121be98afd924be5 6400 main/binary-amd64/Packages.gz
+ 2b9494af2ceda27a03e4cae07f3308ab633af7b57c8845aab22c9d8f6e2c4df0 6431 main/binary-amd64/Packages.bz2
+ d837fc1ad2bc0185498c61aa1909ea9ee8d1346d55028b81f62d07a8ee340a2c 138 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ ac5428e37c336098be35d1b9e01c8cb94f193273f8bfa16b7081c3e1e1309366 8749 main/binary-i386/Packages
+ 7ab922edb5dd70d6e1fd81e0158b8ff12b396e8bed2bf12ef9974d0f8774d670 3271 main/binary-i386/Packages.gz
+ bdefece8674d24ebd5a4c8e7311ffef4297a770c4e6687a1b49a8dcd1ef42237 3379 main/binary-i386/Packages.bz2
+ 742c3252a0048aeca994d4cc7f5abb24735847e63f854f426d07d5be8e899628 137 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
+ 83aeeb4b39ced549a58da35a230ec8482934ba3cb2cf5b6b923b06e9d58c2163 31505 main/source/Sources
+ 6d9939a0180c12077785df99a70fa4aec23e33d1af0471f313d7020774a30bbb 7476 main/source/Sources.gz
+ 05f43ca919e54d88ae0454e39a161ba933ae51de3530cc2546b6fa792cac79de 7155 main/source/Sources.bz2
+ e7fea98818d5adccfa763bb0401c08464635b99b86178169b4f35fec9760070e 139 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/binary-armhf/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/debug/binary-armhf/Packages.bz2
+ 9fd38c79c80fabdbde51941dcf3d93d56e86bb3f820e0fc037a770a2fcd25268 144 main/debug/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/binary-arm64/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/debug/binary-arm64/Packages.bz2
+ b6c989a907813577b53a383772083e77af2bc2ffdf9c2cb101b7083c800b39ef 144 main/debug/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/binary-amd64/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/debug/binary-amd64/Packages.bz2
+ fb496ac1fe83d6cd62d5ba5166cee5e548180eed21cfc5ba846715312044b8b6 144 main/debug/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/binary-i386/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/debug/binary-i386/Packages.bz2
+ 2fe4a9701c15b8085660b0b41b7b2b591e6c11e699fa62f11bd7489c96f47517 143 main/debug/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/source/Sources.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/debug/source/Sources.bz2
+ 8332e344c0a0a0fff98d12d0fa3e4c4f04ac61ba8aab0576591e5294f2b39277 145 main/debug/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU5x0SAAoJEOE9iPfjwdVsvlIIAJ6or8D2DTtoznNTOho9pbBf
+vXrCYbD3AQRqiHT0/pUIYCuH5rBbxtVcVOpUFGMhkH+jS7lCEK5Ic2EJMYgAHlYk
+DgwEfHHjuPI92eF7C/dv9DqKJjTbfzQPIXR5A1vwFt/mF7syvPNTx93++VrHRvQM
+9isVuT51pjR+QYBSiUOdw8MWd8Mpz0UJ2BrUGeYt4SL525ZUhhoLiQm3QIVyrWvF
+m59Jk5UeWwkAUMtL4rOMa+F8Qnnj+sSwtDVzakLzR6UIMmz7RjNBuBCooFmPPPEc
+PnhT6xdEDUTp13qdtin7rFfmLq6el3k2Nmnb4yP0xa8/9F4IEMRNX6gyhYk/Acs=
+=pOGa
+-----END PGP SIGNATURE-----

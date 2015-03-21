@@ -1,0 +1,5 @@
+498ffbea629ebe42963b0c7c5c8b3dd2  usr/share/doc/libnss3-nssdb/copyright
+e5fd243e81de13de1ee17957c06b9256  var/lib/nssdb/cert9.db
+88d1669347a0c61ad71ecdd721b32eca  var/lib/nssdb/key4.db
+3218f81ff23380013bfbba477f928571  var/lib/nssdb/pkcs11.txt
+34384638f3194f55ab1d2db09c053ea0  var/lib/nssdb/secmod.db

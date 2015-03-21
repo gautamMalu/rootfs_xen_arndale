@@ -1,0 +1,31 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: galculator
+Upstream-Contact: Simon Flöry <simon.floery@gmx.at>
+Source: http://galculator.sourceforge.net/
+Comment:
+ This package was debianized by Sebastien Bacher <seb128@debian.org>
+ on Wed, 19 Feb 2003 23:13:19 +0100.
+
+Files: *
+Copyright: 2002-2014 Simon Flöry <simon.floery@rechenraum.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2012-2014 Dmitry Smirnov <onlyjob@debian.org>
+           2007-2009 Marco Rodrigues <gothicx@gmail.com>
+           2003-2006 Sebastien Bacher <seb128@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in "/usr/share/common-licenses/GPL-2".

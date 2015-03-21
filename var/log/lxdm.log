@@ -1,0 +1,34 @@
+** Message: add xserver watch
+
+
+X.Org X Server 1.16.0
+Release Date: 2014-07-16
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 3.2.0-67-highbank armv7l Ubuntu
+Current Operating System: Linux linaro-lxde 3.17.0-00001-g158a1a9-dirty #2 SMP Tue Mar 3 17:56:43 IST 2015 armv7l
+Kernel command line: earlyprintk=xenboot console=hvc0 rootwait rw root=/dev/xvda debug loglevel=10
+Build Date: 10 September 2014  01:16:38PM
+xorg-server 2:1.16.0-1ubuntu1 (For technical support please see http://www.ubuntu.com/support) 
+Current version of pixman: 0.32.4
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Jan  1 09:00:28 1970
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+(EE) 
+Fatal server error:
+(EE) no screens found(EE) 
+(EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+(EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+(EE) 
+(EE) Server terminated with error (1). Closing log file.
+** Message: exit cb
+
+** Message: free session
+
+arc 1

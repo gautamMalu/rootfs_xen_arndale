@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/menu-cache
+/usr/lib/menu-cache/menu-cached
+/usr/lib/menu-cache/menu-cache-gen
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmenu-cache-bin
+/usr/share/doc/libmenu-cache-bin/changelog.Debian.gz
+/usr/share/doc/libmenu-cache-bin/copyright

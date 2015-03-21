@@ -1,0 +1,11 @@
+/.
+/lib
+/lib/arm-linux-gnueabihf
+/lib/arm-linux-gnueabihf/libsystemd-journal.so.0.11.3
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsystemd-journal0
+/usr/share/doc/libsystemd-journal0/changelog.Debian.gz
+/usr/share/doc/libsystemd-journal0/copyright
+/lib/arm-linux-gnueabihf/libsystemd-journal.so.0

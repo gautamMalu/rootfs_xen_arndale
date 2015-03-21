@@ -1,0 +1,10 @@
+TARGETS = cgmanager rsyslog killprocs cgproxy single ssh cron dbus ntp rc.local ondemand
+INTERACTIVE =
+cgproxy: cgmanager
+single: killprocs
+ssh: rsyslog
+cron: rsyslog
+dbus: rsyslog
+ntp: rsyslog
+rc.local: cgmanager rsyslog cgproxy ssh cron dbus ntp
+ondemand: cgmanager rsyslog cgproxy ssh cron dbus ntp

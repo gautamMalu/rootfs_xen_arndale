@@ -1,0 +1,10 @@
+462252ce98d71b71c9ab7717e9fc4d40  usr/share/doc/libgtk-3-common/AUTHORS
+568f089db830feaaf4483773ed5626af  usr/share/doc/libgtk-3-common/NEWS.gz
+bf4e0b012d0a27dfcce2a4688b6a5393  usr/share/doc/libgtk-3-common/README.gz
+6607e5825a3af2622910f9dd049c407b  usr/share/doc/libgtk-3-common/changelog.Debian.gz
+e3924a72455b305ebdb983aed41b2be8  usr/share/doc/libgtk-3-common/copyright
+700b29acc5e83e46ba15e8ddde1f23ae  usr/share/glib-2.0/schemas/10_libgtk-3-common.gschema.override
+850fd1c110db1b80c2db8ec0e76137f1  usr/share/glib-2.0/schemas/org.gtk.Settings.ColorChooser.gschema.xml
+8dd41991c72a3c67dd1e6901268eb901  usr/share/glib-2.0/schemas/org.gtk.Settings.FileChooser.gschema.xml
+3c7696703239fe3d5f10e6c4a6435052  usr/share/themes/Default/gtk-3.0/gtk-keys.css
+97f88973ed912743a89f0a02f4bbcc8c  usr/share/themes/Emacs/gtk-3.0/gtk-keys.css

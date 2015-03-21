@@ -1,0 +1,1163 @@
+Package: fvp-pre-boot
+Version: 0.2.20140715+git45+ab406f1-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 2659
+Priority: extra
+Section: admin
+Filename: pool/main/f/fvp-pre-boot/fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1_all.deb
+Size: 521944
+SHA256: 12a06698482db04b4c3287e50b3a17685c74fc6992e8b37e275225defc18f154
+SHA1: 0dcb17dc2a5f7a12abed1c25e57675a12c758abf
+MD5sum: e97e372fb3c3b1db13dafc4e6ec5fd01
+Description: Binary pre-bootloader for FVP Base models
+ This package contains ARM Trusted Firmware binaries for the FVP Base Models.
+
+Package: juno-pre-boot
+Version: 0.10.1.20150108
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: juno-pre-boot-0.10.1
+Priority: extra
+Section: admin
+Filename: pool/main/j/juno-pre-boot/juno-pre-boot_0.10.1.20150108_all.deb
+Size: 2526
+SHA256: 8af00a8376c34814f924d0a28afe2376b7b628e22c901ec51d15a22b94c9e05e
+SHA1: 4e3bd30b776b07ba6be0edb7b20119952493391f
+MD5sum: 8dd5879ad5ba4b8b99d36b7b3b816c25
+Description: Binary pre-bootloader for Juno (meta)
+ This is a meta package for ARM Trusted Firmware binaries for Juno.
+
+Package: juno-pre-boot-0.10.1
+Version: 0.10.1.20150108-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 3915
+Priority: extra
+Section: admin
+Filename: pool/main/j/juno-pre-boot-0.10.1/juno-pre-boot-0.10.1_0.10.1.20150108-0linaro1_all.deb
+Size: 992966
+SHA256: b93f9aaeeca9e1d13d6bd8fc551c7952ceea6790bc872e80dd5a87afb7c3eb03
+SHA1: 39b6844a6ff01cb9c371a2d0bfe75cdb9bcb7f4c
+MD5sum: b1f8fc96d24adad7c75983e01e5ee10a
+Description: Binary pre-bootloader for Juno
+ This package contains ARM Trusted Firmware binaries for Juno.
+
+Package: libxen-4.6
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 737
+Depends: libc6 (>= 2.15), libfdt1, libuuid1 (>= 2.16), libxenstore3.0 (>= 4.2~), libyajl2 (>= 2.0.4), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/x/xen/libxen-4.6_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 242058
+SHA256: 17e37d8a6e5945af6dc21009e58fdd00082fbf0fe85ebef9db189e1d8d9ecdab
+SHA1: a0bbc1cc5c0af6150cca91c496bba0c24c9d72fb
+MD5sum: d9ea6b8b1f73b41efe3fa0486090f5da
+Description: Public libs for Xen
+ This package contains the shared toolstack libraries for Xen.
+
+Package: libxen-dev
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 2060
+Depends: libxen-4.6 (= 4.5.20150220-28linaro+utopic), libxenstore3.0 (= 4.5.20150220-28linaro+utopic)
+Priority: optional
+Section: libdevel
+Filename: pool/main/x/xen/libxen-dev_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 453092
+SHA256: 043232d8fd92ddbb83297619c456860d18dc1911a287f17bd73225175d301008
+SHA1: cb1f9b4fab88a6ffaf026b47f19d19c21e22798c
+MD5sum: a3099250f6425b732752445a16654fba
+Description: Public headers and libs for Xen
+ This package contains the public headers and static libraries for Xen.
+ .
+ The libxenlight library is intended as a common base for all Xen toolstack
+ developers.  The libxlutil library contains additional helpers which may
+ be useful to toolstack developers.
+ .
+ The libxenstore library allows userspace processes to interact with the
+ XenStore database.  XenStore is a shared database used for interdomain
+ communication of configuration and status information.  It is accessible
+ to all domains running on the same Xen host.  See
+ http://wiki.xen.org/wiki/XenStore for more information.
+ .
+ The libxenctrl and libxenguest libraries are internal libraries intended
+ for use by the Xen toolstack and are not intended to be used directly.
+ Toolstack authors should use libxenlight.
+
+Package: libxenstore3.0
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 70
+Depends: libc6 (>= 2.7)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/x/xen/libxenstore3.0_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 14234
+SHA256: 2f0e0a2a0c3f331030b64c21c2ee68e4530e71d07053bf26a399077ac5075693
+SHA1: 86fdc727c28fcf54b6b01f3dfb076b363bc817d8
+MD5sum: b5bacaef5b0dc3746ea251697b067aa4
+Description: Xenstore communications library for Xen
+ This package contains the client library interface to XenStore.  .
+
+Package: linaro-overlay
+Version: 1112.4
+Architecture: all
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Installed-Size: 70
+Depends: gnupg
+Priority: optional
+Section: utils
+Filename: pool/main/l/linaro-overlay/linaro-overlay_1112.4_all.deb
+Size: 5852
+SHA256: 7f3b58c73ffe36ff610eea7be2c79ec8716c1dc4dba87a3435c099f4aa2d8eb5
+SHA1: fd5cc8f92720eb608b7de0097cc782e3406f014d
+MD5sum: 9a530da1760156007a13e5c5c7bab504
+Description: Linaro Overlay Specific Changes
+ ships branding elements for Linaro:
+   + http://start.linaro.org as homepage in firefox
+   + lsb-release changes to DISTRIB_ID
+   + changed splash screen artworkPackage: linaro-overlay
+
+Package: linaro-overlay-minimal
+Source: linaro-overlay
+Version: 1112.4
+Architecture: all
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Installed-Size: 46
+Depends: linaro-overlay
+Priority: optional
+Section: utils
+Filename: pool/main/l/linaro-overlay/linaro-overlay-minimal_1112.4_all.deb
+Size: 5176
+SHA256: 327c3a89a35adf040f906c4d0e5c042a838b910e922bee018ac240105406635d
+SHA1: 1bfb9ec55a0cd620557b01bacd744da09e9beb8b
+MD5sum: 3dda4b32a6d7c6e48f04fa3e68174665
+Description: Linaro Overlay for Linaro headless/minimal images
+ ships a autologinroot upstart conf
+
+Package: linux-firmware
+Version: 1.138.1+linaro2
+Architecture: all
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 54503
+Conflicts: atmel-firmware
+Replaces: atmel-firmware, linux-restricted-common
+Provides: atmel-firmware
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-firmware/linux-firmware_1.138.1+linaro2_all.deb
+Size: 18507754
+SHA256: 9f961e65c667b91dd7806971662139ac594aa9a8e49ecea5f907beed68af2fa0
+SHA1: 79501173660b0c3f6b327af74c3a26b5b2a14428
+MD5sum: a667b1c4f9c62e921642ddab811ff6c1
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
+
+Package: linux-headers-linaro-am335x
+Source: linux-meta-linaro-am335x
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-am335x
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-am335x/linux-headers-linaro-am335x_3.18.0.1.1_armhf.deb
+Size: 3254
+SHA256: 9dc516d38d02a49613f9596627d91a2ddd965fe77fee70083630b8456ad0d7cc
+SHA1: 9fc04463d6311097b668af3107e280f87e7bb851
+MD5sum: 693cf38170be8495ffab079351a9c72c
+Description: Linux kernel headers for the TI AM335x architecture.
+ This package will always depend on the latest kernel headers available
+ for TI AM335x systems.
+
+Package: linux-headers-linaro-arndale
+Source: linux-meta-linaro-arndale
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-arndale
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-arndale/linux-headers-linaro-arndale_3.18.0.1.1_armhf.deb
+Size: 3244
+SHA256: 8f9e8dd4640a74902fe8f6067666d7acde4f5717158325201bb39efc1c9efd13
+SHA1: 18ee226e1b71e03be3d33932ecbf5d92228ea1e5
+MD5sum: 531e9e6afd39ea806e20b316aeea8277
+Description: Linux kernel headers for the Insignal Arndale architecture.
+ This package will always depend on the latest kernel headers available
+ for Insignal Arndale systems.
+
+Package: linux-headers-linaro-arndale-octa
+Source: linux-meta-linaro-arndale-octa
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-arndale-octa
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-arndale-octa/linux-headers-linaro-arndale-octa_3.18.0.1.1_armhf.deb
+Size: 3268
+SHA256: 43a901c007b63f7d02559f7c21d2efbb3d8ba0a52bf3f8b15fbc2cf6ecded6b2
+SHA1: 131d4ae14e18db31eff9b26aedf4c426eb4c0fec
+MD5sum: f6162dc7b7fa355fd5091e0e769013f1
+Description: Linux kernel headers for the Insignal Arndale Octa architecture.
+ This package will always depend on the latest kernel headers available
+ for Insignal Arndale Octa systems.
+
+Package: linux-headers-linaro-highbank
+Source: linux-meta-linaro-highbank
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-highbank
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-highbank/linux-headers-linaro-highbank_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: 719472e9e0b5d8eeb6c601def07f2481e46cb86abe7f7bdd1c0822579e8be16c
+SHA1: 224331775455a40b7d77de635c6a7aeeb8b7ab1e
+MD5sum: 2b7e4177496f39e518825446c5594ff8
+Description: Linux kernel headers for the Calxeda Highbank architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Calxeda Highbank systems.
+
+Package: linux-headers-linaro-lt-origen
+Source: linux-meta-linaro-lt-origen
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-lt-origen
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-lt-origen/linux-headers-linaro-lt-origen_3.18.0.1.1_armhf.deb
+Size: 3262
+SHA256: 9e3fda0116228520bfa5a4063f8f40f70a5f5f825cf3f04eb22e4b8052f8cb0a
+SHA1: 341b781015327e391c71215eae34a5093703e6dc
+MD5sum: d7ca12a93450bee3cfaa05ed7bc61926
+Description: Linux kernel headers for the Samsung ORIGEN architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Samsung Origen systems.
+
+Package: linux-headers-linaro-lt-vexpress
+Source: linux-meta-linaro-lt-vexpress
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-lt-vexpress
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-lt-vexpress/linux-headers-linaro-lt-vexpress_3.18.0.1.1_armhf.deb
+Size: 3256
+SHA256: d9e1f2b3a54c5cfd299c2e5e39472756a8cae43724174fbfb47082d115219e56
+SHA1: 092ff28cd1cf236b23ac3b5282cf413dfef0dcd3
+MD5sum: c9894acd39b49582a593623605e6b035
+Description: Linux kernel headers for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Vexpress systems.
+
+Package: linux-headers-linaro-midway
+Source: linux-meta-linaro-midway
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-midway
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-midway/linux-headers-linaro-midway_3.18.0.1.1_armhf.deb
+Size: 3250
+SHA256: b8a347f845f56ee940f988a30f9946f45878b0f91a42baa4e19bf223414fd0a7
+SHA1: 61082fdb822fd324b022924c9d56a7eae6af98ff
+MD5sum: 51075cb281e20e58c84271958424ec00
+Description: Linux kernel headers for the Calxeda Midway architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Calxeda Midway systems.
+
+Package: linux-headers-linaro-omap
+Source: linux-meta-linaro-omap
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-omap
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-omap/linux-headers-linaro-omap_3.18.0.1.1_armhf.deb
+Size: 3252
+SHA256: cba684edd5c7aca97997f8bde74c70ef33e3d3dc666c0a0e5012afb9ef39f798
+SHA1: fc35020ff8eadec911b4e705133ce908253821bf
+MD5sum: 89aa1eac14bdaf8ef3487eb991f2ca75
+Description: Linux kernel headers for the TI OMAP architecture.
+ This package will always depend on the latest kernel headers available
+ for TI OMAP systems.
+
+Package: linux-headers-linaro-origen
+Source: linux-meta-linaro-origen
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-origen
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-origen/linux-headers-linaro-origen_3.18.0.1.1_armhf.deb
+Size: 3256
+SHA256: 9adbfbb2b9939bceed4c6058553fd5ad307bf9849a520b52d35742b74cb02a94
+SHA1: a9c36e87366c6aa28ed875e6eb37c37425a0ded5
+MD5sum: 7268cd96a0233a5c7c42232d8e848d86
+Description: Linux kernel headers for the Samsung ORIGEN architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Samsung Origen systems.
+
+Package: linux-headers-linaro-u8500
+Source: linux-meta-linaro-u8500
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-u8500
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-u8500/linux-headers-linaro-u8500_3.18.0.1.1_armhf.deb
+Size: 3256
+SHA256: 83da911f411ed27a0bcdb166a8dc6784765e052c60c5d3146a8025f07181253a
+SHA1: e4c404d9b10e5f213664e0e0a73c01894e24718a
+MD5sum: 172ceada3c83559c473a2899334bfbe6
+Description: Linux kernel headers for the ST-Ericsson u8500 architecture.
+ This package will always depend on the latest kernel headers available
+ for ST-Ericsson u8500 based systems.
+
+Package: linux-headers-linaro-vexpress
+Source: linux-meta-linaro-vexpress
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-headers-3.18.0-1-linaro-vexpress
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta-linaro-vexpress/linux-headers-linaro-vexpress_3.18.0.1.1_armhf.deb
+Size: 3246
+SHA256: f15e33248ac5b459f2b612c37db4ba2a5493289bf8395ff674ddd93b4750428a
+SHA1: 86eab02ed686f1c0438facd5c18cca21e9eb25d5
+MD5sum: 0f5ff8a702e2d0da4e03944381091f4b
+Description: Linux kernel headers for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Vexpress systems.
+
+Package: linux-image-linaro-am335x
+Source: linux-meta-linaro-am335x
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-am335x, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-am335x/linux-image-linaro-am335x_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: f2a1debd581fdc34aa04a21bdf18027dbafcd8bbcac0f31cd3d41c1fb6a6e2c8
+SHA1: 6f7af8cb21ef614a56d5aba622222983057042d4
+MD5sum: fe5425b3f2be7a7eb5ac1122643765a6
+Description: Linux kernel image for the TI AM335x architecture.
+ This package will always depend on the latest kernel image available
+ for TI AM335x systems.
+
+Package: linux-image-linaro-arndale
+Source: linux-meta-linaro-arndale
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-arndale, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-arndale/linux-image-linaro-arndale_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: 0c377b4481d31785c3a3c2e5ead82c2c90bfd882f3e6e04d97e93d7bffbdc1eb
+SHA1: 38282ce548e9c9ba676c3f9826075354fe5dcdac
+MD5sum: d18ec36e8e1a1bf65f10a476c7cb7444
+Description: Linux kernel image for the Insignal Arndale architecture.
+ This package will always depend on the latest kernel image available
+ for Insignal Arndale systems.
+
+Package: linux-image-linaro-arndale-octa
+Source: linux-meta-linaro-arndale-octa
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-arndale-octa, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-arndale-octa/linux-image-linaro-arndale-octa_3.18.0.1.1_armhf.deb
+Size: 3280
+SHA256: 697f5c07cff24841129c1816f646fd6fcd1efdf8e0073e3658488a8beb399f70
+SHA1: 629118ebc33f58f72ce1b6b35c1a3c4129b768a3
+MD5sum: 216930975179ccc54a4755fd21606c03
+Description: Linux kernel image for the Insignal Arndale Octa architecture.
+ This package will always depend on the latest kernel image available
+ for Insignal Arndale Octa systems.
+
+Package: linux-image-linaro-highbank
+Source: linux-meta-linaro-highbank
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-highbank, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-highbank/linux-image-linaro-highbank_3.18.0.1.1_armhf.deb
+Size: 3266
+SHA256: 9d898aa5f6bca4ccfc8c3876989d73cc68ceebba0977f89a5781eb421abab5cb
+SHA1: a7a10fd8f6aa851b2a4133dddae71e012c9bb199
+MD5sum: e531b2e0a685d1d22588c0986f632e2d
+Description: Linux kernel image for the Calxeda Highbank architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Calxeda Highbank systems.
+
+Package: linux-image-linaro-lt-origen
+Source: linux-meta-linaro-lt-origen
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-lt-origen, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-lt-origen/linux-image-linaro-lt-origen_3.18.0.1.1_armhf.deb
+Size: 3274
+SHA256: 67eaf4210444607d0c3e19680a12bb0b80aeecd1c1e5d2a115b741f470275851
+SHA1: 75d338c360ddecb1d67b42e0e0c4e2feb1347d7d
+MD5sum: 2a8b4dcc30aed5e0bc18f0bfc9247766
+Description: Linux kernel image for the Samsung ORIGEN architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Samsung Origen systems.
+
+Package: linux-image-linaro-lt-vexpress
+Source: linux-meta-linaro-lt-vexpress
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-lt-vexpress, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-lt-vexpress/linux-image-linaro-lt-vexpress_3.18.0.1.1_armhf.deb
+Size: 3264
+SHA256: db49bfb9963af5420348ce4b24c59c1325200f372b2eb0afd969cd6baed1f83c
+SHA1: 52c6d241444f2d6ad1196373b1b27f867bc9cafa
+MD5sum: 3bf8824acb536a694e56689333aa0161
+Description: Linux kernel image for the Vexpress architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Vexpress systems.
+
+Package: linux-image-linaro-midway
+Source: linux-meta-linaro-midway
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-midway, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-midway/linux-image-linaro-midway_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: d0a4ea529479ac51538b0290086c188d4d49458355abe6eb2007f69ca502d7f7
+SHA1: 7801369dd48d8750cb7cba1ee498216be742acc8
+MD5sum: 33076eec75b5fb6f25e1223e0ebe6e32
+Description: Linux kernel image for the Calxeda Midway architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Calxeda Midway systems.
+
+Package: linux-image-linaro-omap
+Source: linux-meta-linaro-omap
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-omap, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-omap/linux-image-linaro-omap_3.18.0.1.1_armhf.deb
+Size: 3254
+SHA256: 91d1cf1fa73756b2e0631f95fd8a4c84a15cd9205999bfb9fb8d893a8c5b704a
+SHA1: 91750f1f6942c9cba0ca06cdf252336e41070057
+MD5sum: 540e61a5362eb44d4ae6fc6a446729f4
+Description: Linux kernel image for the TI OMAP architecture.
+ This package will always depend on the latest kernel image available
+ for TI OMAP systems.
+
+Package: linux-image-linaro-origen
+Source: linux-meta-linaro-origen
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-origen, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-origen/linux-image-linaro-origen_3.18.0.1.1_armhf.deb
+Size: 3268
+SHA256: 433a424a6695ed0d4c2049cd45c8dc9fb6c1c9e4887aed69526c06aad2e395ba
+SHA1: f8a35b249691d2c7eaa5108e50da843f5ac625f7
+MD5sum: 2071c389a59f4591feadcb4aca67dbad
+Description: Linux kernel image for the Samsung ORIGEN architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Samsung Origen systems.
+
+Package: linux-image-linaro-u8500
+Source: linux-meta-linaro-u8500
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-u8500
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-u8500/linux-image-linaro-u8500_3.18.0.1.1_armhf.deb
+Size: 3250
+SHA256: 03b4e26e491cab786c77cf06660ffeb8fb32edf367acc9caa80a73ef3b2ab3e1
+SHA1: 0db4eb3fb5ce2e3fc17f8c0e4f2ad2af277e2d05
+MD5sum: 0fa48f6749c8aaeee3db6de4236f6ded
+Description: Linux kernel image for the ST-Ericsson u8500 architecture.
+ This package will always depend on the latest kernel image available
+ for ST-Ericsson u8500 systems.
+
+Package: linux-image-linaro-vexpress
+Source: linux-meta-linaro-vexpress
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-image-3.18.0-1-linaro-vexpress, linux-firmware
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-vexpress/linux-image-linaro-vexpress_3.18.0.1.1_armhf.deb
+Size: 3260
+SHA256: e35f482512884b0d684c0bd259f3ac01a672499bc811ec29690ce5712a4357c5
+SHA1: c45a3806749892424d523503d0990f604d7211f0
+MD5sum: 5017afdb4c20ca171a78bb9f89b33ff3
+Description: Linux kernel image for the Vexpress architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Vexpress systems.
+
+Package: linux-tools-linaro-am335x
+Source: linux-meta-linaro-am335x
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-am335x
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-am335x/linux-tools-linaro-am335x_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: 35a35f67221746829857b132ff078988fca17fedfad3b7e9bb92ffbf87578ed9
+SHA1: 58be231398f5f7007f42b2af6a6cc9963485afb1
+MD5sum: 78683bcf98e64b692c976229ad7e01e5
+Description: Linux kernel tools for the TI AM335x architecture.
+ This package will always depend on the latest TI AM335x Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-arndale
+Source: linux-meta-linaro-arndale
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-arndale
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-arndale/linux-tools-linaro-arndale_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: 338338463c428ea2587bae542430081977abe42f698b7a91df4f4f93ef69b88f
+SHA1: 1f6f2871054f6ef56b9afae1741c67a68eb661fb
+MD5sum: 1ff65b20f32cda377bf33e75ce28c9c9
+Description: Linux kernel tools for the Insignal Arndale architecture.
+ This package will always depend on the latest Arndale Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-arndale-octa
+Source: linux-meta-linaro-arndale-octa
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-arndale-octa
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-arndale-octa/linux-tools-linaro-arndale-octa_3.18.0.1.1_armhf.deb
+Size: 3266
+SHA256: 6f90c9a8f5703b5f4bd4e1aa836d31aa2967b2ab13630754a61d98f8f2f1efbf
+SHA1: 51baf614434024efc1d3c0e97dc2a8aa81ea79c2
+MD5sum: 9f03ccd97ce1da0cd586265326dadc61
+Description: Linux kernel tools for the Insignal Arndale Octa architecture.
+ This package will always depend on the latest Arndale Octa Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-highbank
+Source: linux-meta-linaro-highbank
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-highbank
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-highbank/linux-tools-linaro-highbank_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: aee4c554cbd5f1594ca870d18077b2ffdeea6778de68c28d3333e173b4b3083c
+SHA1: 700a7fada5c7bc580dce190b40ddcafb22256bc1
+MD5sum: a29e09baf9c5d778d08b4bd345798986
+Description: Linux kernel tools for the Calxeda Highbank architecture.
+ This package will always depend on the latest Highbank Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-lt-origen
+Source: linux-meta-linaro-lt-origen
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-lt-origen
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-lt-origen/linux-tools-linaro-lt-origen_3.18.0.1.1_armhf.deb
+Size: 3268
+SHA256: 76b9a0190113a4763e7cea02251b67b66b6c5166159ffe5d2191203a912a0e96
+SHA1: eca7bde5a15bdd3eca2e01d80c0fc5e052ff62de
+MD5sum: a90b1090f5817c0cbd754533378442e9
+Description: Linux kernel tools for the Samsung ORIGEN architecture.
+ This package will always depend on the latest Origen Linux kernel versioned
+ tools  available.
+
+Package: linux-tools-linaro-lt-vexpress
+Source: linux-meta-linaro-lt-vexpress
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-lt-vexpress
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-lt-vexpress/linux-tools-linaro-lt-vexpress_3.18.0.1.1_armhf.deb
+Size: 3258
+SHA256: 356fd8922a8f3fac7175af346e0cf7b00cd20fb37e45295d5f77093ecc8aecec
+SHA1: b5191099d1bdad15a25900926d2ddd260350f784
+MD5sum: b3593dbe719becdeb2068009e9079b34
+Description: Linux kernel tools for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-midway
+Source: linux-meta-linaro-midway
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-midway
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-midway/linux-tools-linaro-midway_3.18.0.1.1_armhf.deb
+Size: 3252
+SHA256: 6a067ced06d583e5c2f4ae1e1faf497bbd6b96a66d23266afcc62a5f0aa25959
+SHA1: 43aa34a996de3b62ecb20691f258e4d47e7bbbc7
+MD5sum: 08035bee5e4a54cc9479e4e0eb2e40ed
+Description: Linux kernel tools for the Calxeda Midway architecture.
+ This package will always depend on the latest Midway Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-omap
+Source: linux-meta-linaro-omap
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-omap
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-omap/linux-tools-linaro-omap_3.18.0.1.1_armhf.deb
+Size: 3248
+SHA256: 7049f75b095991544ded29ca7ba30d02420c88e122efbbb6fe83c70e80485855
+SHA1: 5534164151ae894a32588d0a7fcc4704260489b2
+MD5sum: e802518a6f3ce8316a56d247816ed5c5
+Description: Linux kernel tools for the TI OMAP architecture.
+ This package will always depend on the latest TI OMAP Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-origen
+Source: linux-meta-linaro-origen
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-origen
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-origen/linux-tools-linaro-origen_3.18.0.1.1_armhf.deb
+Size: 3262
+SHA256: 93255d4caae53f90c7b2499d95efcbbfd71f5a459ca0f3ef8c3441bd4f289fe9
+SHA1: f5cab389c5076332599829c37fec070887d09dbb
+MD5sum: 1497e0dde05949d2d7f5b455084f2161
+Description: Linux kernel tools for the Samsung ORIGEN architecture.
+ This package will always depend on the latest Origen Linux kernel versioned
+ tools  available.
+
+Package: linux-tools-linaro-u8500
+Source: linux-meta-linaro-u8500
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-u8500
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-u8500/linux-tools-linaro-u8500_3.18.0.1.1_armhf.deb
+Size: 3250
+SHA256: 110fb22f8081990c5fd11fc69aa4c55cfdfc9d9d7ec45002b375b46ca5d588ee
+SHA1: 1afe8f81e7b891c07c75ed2e105bacd4ae0f67d8
+MD5sum: d307b42f1009ba7a1a08dcf5f9d934f6
+Description: Linux kernel tools for the ST-Ericsson u8500 architecture.
+ This package will always depend on the latest u8500 Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-vexpress
+Source: linux-meta-linaro-vexpress
+Version: 3.18.0.1.1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: linux-linaro-tools-3.18.0-1-linaro-vexpress
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linux-meta-linaro-vexpress/linux-tools-linaro-vexpress_3.18.0.1.1_armhf.deb
+Size: 3254
+SHA256: 0da2e66dfc6dd365d2a46bce9e476d5ddeebfeab866efa25ef539a0122e40a81
+SHA1: fea639c00965e10930f4132f7b4f68bac1b933b5
+MD5sum: 0250cc389651c2e193e241a4e31b8a4a
+Description: Linux kernel tools for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel versioned
+ tools available.
+
+Package: qemu-linaro-keymaps
+Source: qemu-linaro
+Version: 2.2.0+git910+gcd2d554-145linaro+utopic
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 129
+Breaks: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Replaces: qemu (<< 0.11.0-2), qemu-keymaps, qemu-system (<< 0.12.4+dfsg-4)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-linaro-keymaps_2.2.0+git910+gcd2d554-145linaro+utopic_all.deb
+Size: 17946
+SHA256: fc737199e7404db7b2617270360780c1fc728e3ade4c373efdde586290518b8d
+SHA1: 50c32be4c9bc3cd74a7431c4fe86a12bafa6e861
+MD5sum: 373184691497b4f315fcfb41c5126df8
+Description: QEMU keyboard maps
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides keyboard maps to be used by the qemu-system
+ package or QEMU derivatives.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-system
+Source: qemu-linaro
+Version: 2.2.0+git910+gcd2d554-153linaro+utopic
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 70751
+Depends: qemu-linaro-keymaps, libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libbrlapi0.6, libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.3), libfdt1, libgcc1 (>= 1:4.7), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.2.10-0), libncurses5 (>= 5.5-5~), libpixman-1-0 (>= 0.15.16), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libsasl2-2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), libtinfo5, libuuid1 (>= 2.16), libvdeplug2, libx11-6, zlib1g (>= 1:1.2.0)
+Suggests: samba
+Breaks: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Replaces: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-system_2.2.0+git910+gcd2d554-153linaro+utopic_armhf.deb
+Size: 9566446
+SHA256: e59ef298e40f17c2ed0aaffc173e0d553fcf6f9b2c7a0e8a9f435c667f87cb0d
+SHA1: 2d481f3f17e8549aa5a240f2373737a803194339
+MD5sum: cdc8476406889d75bcaee208b4de9b33
+Description: QEMU full system emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the full system emulation binaries for targets other
+ than x86 and x86-64.  In this mode QEMU emulates a full system, including a
+ processor and various peripherals.  It enables easier testing and debugging
+ of system code.  It can also be used to provide virtual hosting of several
+ virtual machines on a single server.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-user
+Source: qemu-linaro
+Version: 2.2.0+git910+gcd2d554-153linaro+utopic
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 884
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.24.0), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Breaks: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Replaces: qemu (<< 0.11.0-2), qemu-kvm (<< 0.13.0+noroms-0ubuntu13), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-user_2.2.0+git910+gcd2d554-153linaro+utopic_armhf.deb
+Size: 351702
+SHA256: 010fe886361f613bc26d657c43bb95eaf4001f06828c21b679cd810ba3a93119
+SHA1: 0657375d79083cb135ea3eb05b8819ed5da78f1b
+MD5sum: d9b7d9dc014c86e1ed6bacf6483720ce
+Description: QEMU user mode emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries for targets other
+ than x86 and x86-64.  In this mode QEMU can launch Linux processes compiled
+ for one CPU on another CPU.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-user-static
+Source: qemu-linaro
+Version: 2.2.0+git910+gcd2d554-153linaro+utopic
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 50232
+Recommends: binfmt-support, debootstrap
+Suggests: sudo
+Breaks: qemu-kvm-extras-static (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Replaces: qemu-kvm-extras-static (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-user-static_2.2.0+git910+gcd2d554-153linaro+utopic_armhf.deb
+Size: 5388454
+SHA256: 86486bf5d11f6d8cdac099b7f387b62e4daf02dd8287df1e5f5434dbe796aabd
+SHA1: fea5074b40b902a9afddb71bc6ae89e8415b4a29
+MD5sum: d60cbbaf0311b59202f765013b2da66d
+Description: QEMU user mode emulation binaries (static version)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries, built
+ statically. In this mode QEMU can launch Linux processes compiled for
+ one CPU on another CPU.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-utils
+Source: qemu-linaro
+Version: 2.2.0+git910+gcd2d554-153linaro+utopic
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1591
+Depends: libc6 (>= 2.13-31), libcurl3-gnutls (>= 7.16.3), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.2.10-0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: sharutils
+Suggests: debootstrap
+Multi-Arch: foreign
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-utils_2.2.0+git910+gcd2d554-153linaro+utopic_armhf.deb
+Size: 341104
+SHA256: 61534c34812902c02059867f8bdd4d522cf22f1f59fa6202cf35c414b81e03c7
+SHA1: b6fcd843ac072940af4fed50b0e8994de3c17295
+MD5sum: 66546d6779b210b65fd07a3c3cca8bc0
+Description: QEMU utilities
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides QEMU related utilities:
+  * qemu-img: QEMU disk image utility
+  * qemu-io:  QEMU disk exerciser
+  * qemu-nbd: QEMU disk network block device server
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: ubuntu-vexpress-extras-config
+Version: 0.4
+Architecture: all
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Installed-Size: 42
+Depends: upstart-job
+Priority: extra
+Section: utils
+Filename: pool/main/u/ubuntu-vexpress-extras-config/ubuntu-vexpress-extras-config_0.4_all.deb
+Size: 3864
+SHA256: 0e5f545e0097624a3504e2eef2cedae440919f9b0bd68149865dba7395e71bde
+SHA1: 924b29ae962329e951e6d411e5401858bdc353ec
+MD5sum: ce169aad28cee6fb5468cae74477c729
+Description: This is the ARM vexpress configuration package
+ It provides additinal configuration files and settings for a better
+ vexpress usage with Ubuntu.
+
+Package: uefi-image-arndale
+Source: edk2-uefi
+Version: 1:0.2+git12+20140416+48c8a38-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 2693
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-arndale_0.2+git12+20140416+48c8a38-0linaro1_armhf.deb
+Size: 478660
+SHA256: 688717a476481c11f17e6f69e94049696b402ba2ea2bf294888780d93bae2f14
+SHA1: 10ea19782d200338fb513a655cd4aa9d5784bb05
+MD5sum: 8102a02e85b431debddd8c48e04db4b3
+Description: UEFI image for Samsung Arndale
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for Samsung Arndale.
+
+Package: uefi-image-juno
+Version: 0.3.20140404-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 997
+Priority: extra
+Section: admin
+Filename: pool/main/u/uefi-image-juno/uefi-image-juno_0.3.20140404-0linaro1_all.deb
+Size: 428614
+SHA256: 11aa542d02cbff375ce30dc49a75e3ce86a793f0bc169c435a55400044505764
+SHA1: 636af6f61043fa31291483d59c5adf4c6cdbe197
+MD5sum: 46d70345c12e1dce3091b7229f6c7f66
+Description: UEFI image for Juno
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI image for Juno.
+
+Package: uefi-image-origen
+Source: edk2-uefi
+Version: 1:0.2+git12+20140416+48c8a38-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 25
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-origen_0.2+git12+20140416+48c8a38-0linaro1_armhf.deb
+Size: 1868
+SHA256: 6237da1ecf573cdd055d4f6d4c669410897770a1596d16ad90c88b4b7092dc02
+SHA1: 4051257484565cfc6e9dfec51116d9b1379a87c2
+MD5sum: f40e78e83da89f787e53aa720137d001
+Description: UEFI image for Samsung Origen
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for Samsung Origen.
+
+Package: uefi-image-panda
+Source: edk2-uefi
+Version: 1:0.2+git12+20140416+48c8a38-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 25
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-panda_0.2+git12+20140416+48c8a38-0linaro1_armhf.deb
+Size: 1868
+SHA256: 37d7ffc609b386ac079fe55f2a645e1c61cd11489248f0aead2f726dc2edc0b1
+SHA1: e8247c3ef8bc6c9efca5fb4861c208cc170b437f
+MD5sum: 9efa82aef9455e3244cb30142ae64a5e
+Description: UEFI image file for TI PandaBoard
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for TI PandaBoard.
+
+Package: uefi-image-startup-nsh
+Version: 0.0.1.20140214-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 35
+Priority: extra
+Section: admin
+Filename: pool/main/u/uefi-image-startup-nsh/uefi-image-startup-nsh_0.0.1.20140214-0linaro1_all.deb
+Size: 2278
+SHA256: 1d1c5273b4d129de2f2d116c613ed206cb622a914e81753c9491f50ea72432c4
+SHA1: dc45387c9640dbf34e78fca437ee7aeebb80ee4f
+MD5sum: 920b491d4ee431eae61f4b4d922b87c7
+Description: UEFI startup script
+ This package contains a startup script used to boot with UEFI.
+
+Package: uefi-image-vexpress
+Source: edk2-uefi
+Version: 1:0.2+git12+20140416+48c8a38-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 23340
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-vexpress_0.2+git12+20140416+48c8a38-0linaro1_all.deb
+Size: 4399642
+SHA256: 40ee2afbfdc8e1aef943bc2ea9c83f491ab7acec4da4c1df4ddd16897fc2b650
+SHA1: d689e5d070e59848b05326b6fc988d4028faf639
+MD5sum: 302792f3181e2a66fcf50811cbc5012b
+Description: UEFI image for Versatile Express
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for Versatile Express (v2p-ca15-tc2,
+ v2p-ca15-tc1, v2p-ca15-tc2, v2p-ca5s and v2p-ca9).
+
+Package: utopic-crosschroot
+Version: 0.7.4-2
+Architecture: all
+Maintainer: voipio <voipio@kos.to>
+Installed-Size: 166519
+Priority: extra
+Section: alien
+Filename: pool/main/u/utopic-crosschroot/utopic-crosschroot_0.7.4-2_all.deb
+Size: 168517944
+SHA256: 559dedfeb8adc43b5162309c745a1a45114d57950a4e46ef752a08781d4267cb
+SHA1: 72258824025621bb2a5ef9ec547ee4d201dad5bb
+MD5sum: b5a934bb125d055ec8c74844b7540dce
+Description: Converted tgz package
+ Converted tgz package
+ .
+ (Converted from a tgz package by alien version 8.93.)
+
+Package: xen-hypervisor-4.6-armhf
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 780
+Recommends: xen-utils-4.6
+Provides: xen-hypervisor, xen-hypervisor-4.6, xen-hypervisor-armhf
+Priority: optional
+Section: kernel
+Filename: pool/main/x/xen/xen-hypervisor-4.6-armhf_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 197392
+SHA256: d04cee5be3a37888b70c935f484483d4de858ab7c09b5b6eb087726ada09980c
+SHA1: a1f3c3db3d463548bd918baff4868165173765a6
+MD5sum: 3bb7091a71d86ddda92e6f3de7c84f66
+Description: Xen Hypervisor on ARMHF
+ The hypervisor is the "core" for XEN itself.  It gets booted by the boot
+ loader and controls cpu and memory, sharing them between your
+ administrative domain (Domain 0) and the virtual guest systems.
+ .
+ In order to boot a XEN system along with this package you also need a
+ kernel specifically crafted to work as the Domain 0, mediating hardware
+ access for XEN itself.
+
+Package: xen-system-armhf
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: xen-hypervisor-4.6-armhf, xen-utils-4.6
+Provides: xen-system
+Priority: optional
+Section: kernel
+Filename: pool/main/x/xen/xen-system-armhf_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 5554
+SHA256: 5ebfc903112dd176ebc992a89464f3be71b87d394f91c0fa73fd8a9cc37d1c26
+SHA1: c03af7bbb1f86667b68bab85c5d565696fbdee2e
+MD5sum: 16fd92db17398a056df2c140be6bc775
+Description: Xen System on ARMHF (meta-package)
+ This package depends on the latest Xen hypervisor for use on ARMHF and the
+ Xen utils.
+
+Package: xen-utils-4.6
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 915
+Depends: e2fslibs (>= 1.37), libc6 (>= 2.15), libncurses5 (>= 5.5-5~), libtinfo5, libxen-4.6 (>= 4.5.20150220), libxenstore3.0 (>= 4.1.0~rc6), libyajl2 (>= 2.0.4), python2.7, python:any (>= 2.6.6-7~), xen-utils-common (>= 4.5.20150220-28linaro+utopic)
+Recommends: bridge-utils, xen-hypervisor-4.6, qemu-system-x86
+Provides: xen-utils
+Priority: optional
+Section: kernel
+Filename: pool/main/x/xen/xen-utils-4.6_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 231126
+SHA256: 73f55603eebdd8ff649e1c9fd6749ea5d97d14f10c4b969f2a7057eed89a7876
+SHA1: 718593c68122a149d03911d04431ed6d2bb4765f
+MD5sum: 0737f0a3da90df29148b615af98cb44d
+Description: XEN administrative tools
+ The userspace tools to manage a system virtualized through the XEN virtual
+ machine monitor.
+
+Package: xen-utils-common
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: all
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 273
+Depends: lsb-base, python, udev, xenstore-utils, ucf
+Priority: optional
+Section: kernel
+Filename: pool/main/x/xen/xen-utils-common_4.5.20150220-28linaro+utopic_all.deb
+Size: 92328
+SHA256: 2e58100efc36933e701b6f1d2f60144e16d97877d13f40d6b0b6cbd13b59866c
+SHA1: e1c1bf346973a235f54cfa17f33cdc887825da0c
+MD5sum: bb661d53a7d3ae684ba73d5a417e2f7f
+Description: Xen administrative tools - common files
+ The userspace tools to manage a system virtualized through the Xen virtual
+ machine monitor.
+ .
+ This package is only required on the host system (Domain 0) and not on the
+ virtual guest systems (Domain U).
+
+Package: xenstore-utils
+Source: xen
+Version: 4.5.20150220-28linaro+utopic
+Architecture: armhf
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Installed-Size: 152
+Depends: libc6 (>= 2.4), libxenstore3.0 (>= 4.1.0~rc6)
+Conflicts: xen-utils-common (<= 3.1.0-1)
+Replaces: xen-utils-common (<= 3.1.0-1)
+Priority: optional
+Section: admin
+Filename: pool/main/x/xen/xenstore-utils_4.5.20150220-28linaro+utopic_armhf.deb
+Size: 11462
+SHA256: 188c9de94cabefd53b3788fded53dbc6d4b1f36c61407a844f9542631f2bbb77
+SHA1: 7705c216a8a1fd2062d5389913312b31a13f420e
+MD5sum: ed4c25e84b119281dd1fcb9ca74a22a8
+Description: Xenstore command line utilities for Xen
+ This package contains command line utilities for interacting with
+ XenStore.
+ .
+ XenStore is a shared database used for interdomain communication of
+ configuration and status information.  It is accessible to all domains
+ running on the same Xen host.  See http://wiki.xen.org/wiki/XenStore for
+ more information.
+ .
+ In the common case these tools are used by the Xen toolstack running in
+ domain0 (or a driver domain) however they may also be used in a guest
+ domain to support local scripting which wants to communicate via XenStore.
+

@@ -1,0 +1,965 @@
+Jan  1 00:00:24 gautam-Inspiron-1420 login[1900]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:24 gautam-Inspiron-1420 login[1900]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:24 gautam-Inspiron-1420 login[1900]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:24 gautam-Inspiron-1420 login[1925]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:04:12 gautam-Inspiron-1420 sudo:     root : unable to resolve host gautam-Inspiron-1420
+Jan  1 00:04:12 gautam-Inspiron-1420 sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install openssh-server openssh-client
+Jan  1 00:04:12 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jan  1 00:11:05 gautam-Inspiron-1420 groupadd[3561]: group added to /etc/group: name=ssh, GID=104
+Jan  1 00:11:05 gautam-Inspiron-1420 groupadd[3561]: group added to /etc/gshadow: name=ssh
+Jan  1 00:11:05 gautam-Inspiron-1420 groupadd[3561]: new group: name=ssh, GID=104
+Jan  1 00:11:10 gautam-Inspiron-1420 useradd[3605]: new user: name=sshd, UID=101, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jan  1 00:11:10 gautam-Inspiron-1420 usermod[3610]: change user 'sshd' password
+Jan  1 00:11:11 gautam-Inspiron-1420 chage[3615]: changed password expiry for sshd
+Jan  1 00:11:12 gautam-Inspiron-1420 sshd[3673]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:11:12 gautam-Inspiron-1420 sshd[3673]: Server listening on :: port 22.
+Jan  1 00:12:35 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:17:01 gautam-Inspiron-1420 CRON[5281]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 gautam-Inspiron-1420 CRON[5281]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:01 gautam-Inspiron-1420 CRON[5281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 gautam-Inspiron-1420 CRON[5281]: pam_unix(cron:session): session closed for user root
+Jan  1 00:18:00 gautam-Inspiron-1420 sshd[5285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=root
+Jan  1 00:18:02 gautam-Inspiron-1420 sshd[5285]: Failed password for root from 192.168.1.33 port 46322 ssh2
+Jan  1 00:18:10 gautam-Inspiron-1420 passwd[5287]: pam_unix(passwd:chauthtok): account root has password changed in future
+Jan  1 00:18:14 gautam-Inspiron-1420 passwd[5287]: pam_unix(passwd:chauthtok): account root has password changed in future
+Jan  1 00:18:15 gautam-Inspiron-1420 passwd[5287]: pam_unix(passwd:chauthtok): password changed for root
+Jan  1 00:18:22 gautam-Inspiron-1420 sshd[5285]: message repeated 2 times: [ Failed password for root from 192.168.1.33 port 46322 ssh2]
+Jan  1 00:18:22 gautam-Inspiron-1420 sshd[5285]: Connection closed by 192.168.1.33 [preauth]
+Jan  1 00:18:22 gautam-Inspiron-1420 sshd[5285]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=root
+Jan  1 00:20:23 gautam-Inspiron-1420 sudo:     root : unable to resolve host gautam-Inspiron-1420
+Jan  1 00:20:23 gautam-Inspiron-1420 sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 00:20:23 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jan  1 00:00:26 gautam-Inspiron-1420 sshd[1866]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:26 gautam-Inspiron-1420 sshd[1866]: Server listening on :: port 22.
+Jan  1 00:00:17 gautam-Inspiron-1420 sshd[1867]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:17 gautam-Inspiron-1420 sshd[1867]: Server listening on :: port 22.
+Jan  1 00:00:25 gautam-Inspiron-1420 login[1929]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:25 gautam-Inspiron-1420 login[1929]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:25 gautam-Inspiron-1420 login[1955]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:13 gautam-Inspiron-1420 sshd[1946]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:13 gautam-Inspiron-1420 sshd[1946]: Server listening on :: port 22.
+Jan  1 00:00:24 gautam-Inspiron-1420 login[2002]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:24 gautam-Inspiron-1420 login[2002]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:24 gautam-Inspiron-1420 login[2028]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:56 gautam-Inspiron-1420 sshd[2040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=root
+Jan  1 00:00:58 gautam-Inspiron-1420 sshd[2040]: Failed password for root from 192.168.1.33 port 34287 ssh2
+Jan  1 00:01:00 gautam-Inspiron-1420 sshd[2040]: Connection closed by 192.168.1.33 [preauth]
+Jan  1 00:01:41 gautam-Inspiron-1420 sshd[2042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=root
+Jan  1 00:01:44 gautam-Inspiron-1420 sshd[2042]: Failed password for root from 192.168.1.33 port 34288 ssh2
+Jan  1 00:01:45 gautam-Inspiron-1420 sshd[2042]: Connection closed by 192.168.1.33 [preauth]
+Jan  1 00:17:01 gautam-Inspiron-1420 CRON[2197]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:01 gautam-Inspiron-1420 CRON[2197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:02 gautam-Inspiron-1420 CRON[2197]: pam_unix(cron:session): session closed for user root
+Jan  1 00:18:07 gautam-Inspiron-1420 sshd[2204]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=root
+Jan  1 00:18:09 gautam-Inspiron-1420 sshd[2204]: Failed password for root from 192.168.1.33 port 34454 ssh2
+Jan  1 00:18:13 gautam-Inspiron-1420 sshd[2204]: Failed password for root from 192.168.1.33 port 34454 ssh2
+Jan  1 00:18:13 gautam-Inspiron-1420 sshd[2204]: Connection closed by 192.168.1.33 [preauth]
+Jan  1 00:18:13 gautam-Inspiron-1420 sshd[2204]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=root
+Jan  1 00:23:24 gautam-Inspiron-1420 sshd[1923]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:23:24 gautam-Inspiron-1420 sshd[1923]: Server listening on :: port 22.
+Jan  1 00:23:45 gautam-Inspiron-1420 login[1982]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:23:45 gautam-Inspiron-1420 login[1982]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:23:45 gautam-Inspiron-1420 login[2016]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:55:24 gautam-Inspiron-1420 groupadd[2734]: group added to /etc/group: name=linaro, GID=1000
+Jan  1 00:55:24 gautam-Inspiron-1420 groupadd[2734]: group added to /etc/gshadow: name=linaro
+Jan  1 00:55:24 gautam-Inspiron-1420 groupadd[2734]: new group: name=linaro, GID=1000
+Jan  1 00:55:24 gautam-Inspiron-1420 useradd[2738]: new user: name=linaro, UID=1000, GID=1000, home=/home/linaro, shell=/bin/bash
+Jan  1 00:55:44 gautam-Inspiron-1420 passwd[2745]: pam_unix(passwd:chauthtok): password changed for linaro
+Jan  1 00:55:48 gautam-Inspiron-1420 chfn[2746]: changed user 'linaro' information
+Jan  1 00:56:06 gautam-Inspiron-1420 usermod[2751]: add 'linaro' to group 'sudo'
+Jan  1 00:56:06 gautam-Inspiron-1420 usermod[2751]: add 'linaro' to shadow group 'sudo'
+Jan  1 00:57:02 gautam-Inspiron-1420 sshd[1931]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:57:02 gautam-Inspiron-1420 sshd[1931]: Server listening on :: port 22.
+Jan  1 00:57:27 gautam-Inspiron-1420 login[1991]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:57:27 gautam-Inspiron-1420 login[1991]: pam_unix(login:session): session opened for user linaro by LOGIN(uid=0)
+Jan  1 00:57:56 gautam-Inspiron-1420 sshd[2028]: Accepted password for linaro from 192.168.1.33 port 34877 ssh2
+Jan  1 00:57:56 gautam-Inspiron-1420 sshd[2028]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Jan  1 00:57:56 gautam-Inspiron-1420 sshd[2028]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:58:25 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 00:58:28 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install screen
+Jan  1 00:58:28 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:58:56 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:59:22 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 00:59:22 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-key add linarorepo.key
+Jan  1 00:59:22 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:59:23 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:00:04 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:00:04 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/vim sources.list
+Jan  1 01:00:04 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:00:19 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:00:26 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:00:26 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:00:26 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:00:46 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:01:05 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:01:05 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search *armsoc*
+Jan  1 01:01:05 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:01:05 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:01:13 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:01:13 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search *armsoc
+Jan  1 01:01:13 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:01:13 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:01:17 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:01:17 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search armsoc
+Jan  1 01:01:17 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:01:17 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:01:29 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:01:29 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search xorg
+Jan  1 01:01:29 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:01:29 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:02:11 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:04:25 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:04:25 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get install xorg lxde
+Jan  1 01:04:25 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:04:25 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:04:31 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:04:31 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get install lxde
+Jan  1 01:04:31 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:04:31 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:04:39 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:04:39 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search lxde
+Jan  1 01:04:39 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:04:39 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:04:44 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:04:44 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache lxdm
+Jan  1 01:04:44 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:04:44 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:04:52 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:04:52 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search lxdm
+Jan  1 01:04:52 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:04:53 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:06:48 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:06:48 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hostname
+Jan  1 01:06:48 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:06:55 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:07:13 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:07:13 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 01:07:13 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:07:42 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:07:43 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:07:43 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 01:07:43 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:07:53 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:08:15 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:08:15 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim host
+Jan  1 01:08:15 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:08:17 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:08:18 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:08:18 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 01:08:18 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:08:20 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:08:21 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:08:21 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 01:08:21 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:08:22 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:08:23 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:08:23 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 01:08:23 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:08:26 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:08:28 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:08:28 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 01:08:28 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:09:15 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:09:19 gautam-Inspiron-1420 sudo:   linaro : unable to resolve host gautam-Inspiron-1420
+Jan  1 01:09:19 gautam-Inspiron-1420 sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 01:09:19 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:09:19 gautam-Inspiron-1420 sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:10:09 localhost sshd[1925]: Server listening on 0.0.0.0 port 22.
+Jan  1 01:10:09 localhost sshd[1925]: Server listening on :: port 22.
+Jan  1 01:10:28 localhost login[1989]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:10:28 localhost login[1989]: pam_unix(login:session): session opened for user linaro by LOGIN(uid=0)
+Jan  1 01:13:11 localhost sshd[2039]: Accepted password for linaro from 192.168.1.33 port 35056 ssh2
+Jan  1 01:13:11 localhost sshd[2039]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Jan  1 01:13:11 localhost sshd[2039]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:13:16 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:13:16 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:13:29 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:17:01 localhost CRON[2077]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:17:01 localhost CRON[2077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 localhost CRON[2077]: pam_unix(cron:session): session closed for user root
+Jan  1 01:18:02 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-cache search lubuntu
+Jan  1 01:18:02 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:18:02 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:18:10 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-cache search gnome
+Jan  1 01:18:10 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:18:10 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:18:21 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-cache search lxdm
+Jan  1 01:18:21 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:18:22 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:18:26 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-cache search openbox
+Jan  1 01:18:26 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:18:26 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:18:35 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:18:35 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:18:52 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:19:59 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-cache search lxde
+Jan  1 01:19:59 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:19:59 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:20:07 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install lxde
+Jan  1 01:20:07 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:20:07 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:34:06 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-cache search lxde
+Jan  1 01:34:06 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:34:06 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:34:11 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install lxde
+Jan  1 01:34:11 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:34:12 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:42:39 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/add-apt-repository deb http://archive.ubuntu.com/ubuntu utopic main universe restricted multiverse
+Jan  1 01:42:39 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:42:40 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:42:52 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:42:52 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:43:04 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:43:36 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search lxde
+Jan  1 01:43:36 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:43:53 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:44:51 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/vim sources.list
+Jan  1 01:44:51 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:45:12 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:45:12 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/vim sources.list
+Jan  1 01:45:12 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:45:31 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:45:36 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:45:36 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:45:41 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:45:57 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/vim sources.list
+Jan  1 01:45:57 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:46:14 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:46:20 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:46:20 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:46:33 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:46:42 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/add-apt-repository universe
+Jan  1 01:46:42 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:46:42 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:48:23 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 01:48:23 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:49:22 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:49:32 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-cache search lxde
+Jan  1 01:49:32 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 01:49:33 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:51:45 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get install xorg lxde
+Jan  1 01:51:45 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 02:00:33 localhost groupadd[2961]: group added to /etc/group: name=fuse, GID=105
+Jan  1 02:00:33 localhost groupadd[2961]: group added to /etc/gshadow: name=fuse
+Jan  1 02:00:33 localhost groupadd[2961]: new group: name=fuse, GID=105
+Jan  1 02:17:01 localhost CRON[5869]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 02:17:01 localhost CRON[5869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:17:01 localhost CRON[5869]: pam_unix(cron:session): session closed for user root
+Jan  1 02:23:26 localhost groupadd[6457]: group added to /etc/group: name=systemd-journal, GID=106
+Jan  1 02:23:26 localhost groupadd[6457]: group added to /etc/gshadow: name=systemd-journal
+Jan  1 02:23:26 localhost groupadd[6457]: new group: name=systemd-journal, GID=106
+Jan  1 02:23:28 localhost groupadd[6485]: group added to /etc/group: name=messagebus, GID=107
+Jan  1 02:23:28 localhost groupadd[6485]: group added to /etc/gshadow: name=messagebus
+Jan  1 02:23:28 localhost groupadd[6485]: new group: name=messagebus, GID=107
+Jan  1 02:23:28 localhost useradd[6489]: new user: name=messagebus, UID=102, GID=107, home=/var/run/dbus, shell=/bin/false
+Jan  1 02:23:28 localhost usermod[6494]: change user 'messagebus' password
+Jan  1 02:23:28 localhost chage[6499]: changed password expiry for messagebus
+Jan  1 02:25:13 localhost groupadd[7400]: group added to /etc/group: name=scanner, GID=108
+Jan  1 02:25:13 localhost groupadd[7400]: group added to /etc/gshadow: name=scanner
+Jan  1 02:25:13 localhost groupadd[7400]: new group: name=scanner, GID=108
+Jan  1 02:25:49 localhost groupadd[7603]: group added to /etc/group: name=utempter, GID=109
+Jan  1 02:25:49 localhost groupadd[7603]: group added to /etc/gshadow: name=utempter
+Jan  1 02:25:49 localhost groupadd[7603]: new group: name=utempter, GID=109
+Jan  1 02:26:20 localhost useradd[7687]: new user: name=usbmux, UID=103, GID=46, home=/var/lib/usbmux, shell=/bin/false
+Jan  1 02:26:20 localhost usermod[7692]: change user 'usbmux' password
+Jan  1 02:26:20 localhost chage[7697]: changed password expiry for usbmux
+Jan  1 02:26:20 localhost chfn[7700]: changed user 'usbmux' information
+Jan  1 02:26:57 localhost groupadd[7905]: group added to /etc/group: name=colord, GID=110
+Jan  1 02:26:57 localhost groupadd[7905]: group added to /etc/gshadow: name=colord
+Jan  1 02:26:57 localhost groupadd[7905]: new group: name=colord, GID=110
+Jan  1 02:26:57 localhost useradd[7909]: new user: name=colord, UID=104, GID=110, home=/var/lib/colord, shell=/bin/false
+Jan  1 02:26:57 localhost usermod[7914]: change user 'colord' password
+Jan  1 02:26:57 localhost chage[7919]: changed password expiry for colord
+Jan  1 02:26:58 localhost chfn[7922]: changed user 'colord' information
+Jan  1 02:27:38 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 02:56:24 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 02:56:24 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 02:56:24 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 02:57:10 localhost sshd[1986]: Server listening on 0.0.0.0 port 22.
+Jan  1 02:57:10 localhost sshd[1986]: Server listening on :: port 22.
+Jan  1 02:58:23 localhost lxdm-binary: pam_succeed_if(lxdm:auth): requirement "user ingroup nopasswdlogin" not met by user "linaro"
+Jan  1 02:58:23 localhost lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 03:02:30 localhost sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 03:02:30 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:03:27 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:03:45 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hosts
+Jan  1 03:03:45 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:04:18 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:04:24 localhost sudo:   linaro : unable to resolve host linaro
+Jan  1 03:04:24 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim hostname
+Jan  1 03:04:24 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:04:31 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:04:34 localhost sudo:   linaro : unable to resolve host linaro
+Jan  1 03:04:34 localhost sudo:   linaro : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 03:04:34 localhost sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:04:34 localhost sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:05:28 linaro-lxde sshd[1992]: Server listening on 0.0.0.0 port 22.
+Jan  1 03:05:28 linaro-lxde sshd[1992]: Server listening on :: port 22.
+Jan  1 03:05:52 linaro-lxde lxdm-binary: pam_succeed_if(lxdm:auth): requirement "user ingroup nopasswdlogin" not met by user "syslog"
+Jan  1 03:05:52 linaro-lxde lxdm-binary: pam_unix(lxdm:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=syslog
+Jan  1 03:06:01 linaro-lxde lxdm-binary: pam_succeed_if(lxdm:auth): requirement "user ingroup nopasswdlogin" not met by user "syslog"
+Jan  1 03:06:01 linaro-lxde lxdm-binary: pam_unix(lxdm:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=syslog
+Jan  1 03:06:18 linaro-lxde lxdm-binary: pam_succeed_if(lxdm:auth): requirement "user ingroup nopasswdlogin" not met by user "linaro"
+Jan  1 03:06:18 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 03:08:40 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install firefox
+Jan  1 03:08:40 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:10:45 linaro-lxde sshd[2494]: Accepted password for linaro from 192.168.1.33 port 36124 ssh2
+Jan  1 03:10:45 linaro-lxde sshd[2494]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Jan  1 03:10:46 linaro-lxde kernel: [  338.150463] systemd-logind[2497]: New seat seat0.
+Jan  1 03:10:46 linaro-lxde kernel: [  338.163575] systemd-logind[2497]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 03:10:46 linaro-lxde kernel: [  338.171768] systemd-logind[2497]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 03:10:46 linaro-lxde kernel: [  338.188905] systemd-logind[2497]: New session 1 of user linaro.
+Jan  1 03:10:46 linaro-lxde sshd[2494]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 03:13:18 linaro-lxde sudo:   linaro : TTY=pts/4 ; PWD=/etc/lxdm ; USER=root ; COMMAND=/usr/bin/vim lxdm.conf
+Jan  1 03:13:18 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:13:32 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:13:47 linaro-lxde sudo:   linaro : TTY=pts/4 ; PWD=/etc/lxdm ; USER=root ; COMMAND=/usr/bin/vim lxdm.conf
+Jan  1 03:13:47 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:13:49 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:14:25 linaro-lxde sudo:   linaro : TTY=pts/4 ; PWD=/etc/lxdm ; USER=root ; COMMAND=/usr/bin/dpkg -l
+Jan  1 03:14:25 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:14:25 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:17:01 linaro-lxde CRON[2556]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 03:17:01 linaro-lxde CRON[2556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:17:01 linaro-lxde CRON[2556]: pam_unix(cron:session): session closed for user root
+Jan  1 03:28:03 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:28:16 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 03:28:16 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:28:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:29:06 linaro-lxde sshd[2003]: Server listening on 0.0.0.0 port 22.
+Jan  1 03:29:06 linaro-lxde sshd[2003]: Server listening on :: port 22.
+Jan  1 03:29:08 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 03:29:56 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install firefox -y
+Jan  1 03:29:56 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:30:35 linaro-lxde sshd[2344]: Accepted password for linaro from 192.168.1.33 port 36361 ssh2
+Jan  1 03:30:35 linaro-lxde sshd[2344]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Jan  1 03:30:37 linaro-lxde kernel: [  109.576859] systemd-logind[2351]: New seat seat0.
+Jan  1 03:30:37 linaro-lxde kernel: [  109.588220] systemd-logind[2351]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 03:30:37 linaro-lxde kernel: [  109.596358] systemd-logind[2351]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 03:30:37 linaro-lxde kernel: [  109.612627] systemd-logind[2351]: New session 1 of user linaro.
+Jan  1 03:30:37 linaro-lxde sshd[2344]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 03:37:00 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:39:51 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install ntpdate
+Jan  1 03:39:51 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:39:53 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:40:03 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install ntpdate
+Jan  1 03:40:03 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:40:04 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:40:56 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/find . -name ntp*
+Jan  1 03:40:56 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:40:56 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:45:16 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/service ntpdate status
+Jan  1 03:45:16 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:45:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:47:01 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate 192.168.1.33
+Jan  1 03:47:01 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:47:10 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:48:52 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/bin/vim ntpdate
+Jan  1 03:48:52 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:49:13 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:49:30 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/etc/default ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 03:49:30 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:49:30 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:50:25 linaro-lxde sshd[1989]: Server listening on 0.0.0.0 port 22.
+Jan  1 03:50:25 linaro-lxde sshd[1989]: Server listening on :: port 22.
+Jan  1 03:50:26 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 03:51:32 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate
+Jan  1 03:51:32 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 03:51:32 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 03:52:47 linaro-lxde sshd[2325]: Accepted password for linaro from 192.168.1.33 port 36688 ssh2
+Jan  1 03:52:47 linaro-lxde sshd[2325]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Jan  1 03:52:50 linaro-lxde kernel: [  164.345430] systemd-logind[2328]: New seat seat0.
+Jan  1 03:52:51 linaro-lxde kernel: [  165.174239] systemd-logind[2328]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 03:52:51 linaro-lxde kernel: [  165.182376] systemd-logind[2328]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 03:52:51 linaro-lxde kernel: [  165.195855] systemd-logind[2328]: New session 1 of user linaro.
+Jan  1 03:52:51 linaro-lxde sshd[2325]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 03:53:29 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/bin/date -s 20 February 2015 15:27:00
+Jan  1 03:53:29 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 15:27:00 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:27:57 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate
+Feb 20 15:27:57 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 15:27:57 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:29:13 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get remove --purge firefox
+Feb 20 15:29:13 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 15:29:51 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:33:24 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Feb 20 15:33:24 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 15:33:24 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:34:22 linaro-lxde sshd[1969]: Server listening on 0.0.0.0 port 22.
+Feb 20 15:34:22 linaro-lxde sshd[1969]: Server listening on :: port 22.
+Feb 20 15:34:24 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Feb 20 15:35:35 linaro-lxde sshd[2280]: Accepted password for linaro from 192.168.1.33 port 36816 ssh2
+Feb 20 15:35:35 linaro-lxde sshd[2280]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Feb 20 15:35:36 linaro-lxde kernel: [   92.185359] systemd-logind[2283]: New seat seat0.
+Feb 20 15:35:36 linaro-lxde kernel: [   92.197300] systemd-logind[2283]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Feb 20 15:35:36 linaro-lxde kernel: [   92.205458] systemd-logind[2283]: Failed to start user service: Unknown unit: user@1000.service
+Feb 20 15:35:36 linaro-lxde kernel: [   92.222153] systemd-logind[2283]: New session 1 of user linaro.
+Feb 20 15:35:36 linaro-lxde sshd[2280]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 20 15:42:05 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/dev ; USER=root ; COMMAND=/bin/su
+Feb 20 15:42:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 15:42:05 linaro-lxde su[2325]: Successful su for root by root
+Feb 20 15:42:05 linaro-lxde su[2325]: + /dev/pts/0 root:root
+Feb 20 15:42:05 linaro-lxde su[2325]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 20 15:42:05 linaro-lxde su[2325]: pam_unix(su:session): session opened for user root by linaro(uid=0)
+Feb 20 15:42:12 linaro-lxde passwd[2344]: pam_unix(passwd:chauthtok): new password not acceptable
+Feb 20 15:42:13 linaro-lxde su[2325]: pam_unix(su:session): session closed for user root
+Feb 20 15:42:13 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:42:16 linaro-lxde su[2351]: Successful su for root by linaro
+Feb 20 15:42:16 linaro-lxde su[2351]: + /dev/pts/0 linaro:root
+Feb 20 15:42:16 linaro-lxde su[2351]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 20 15:42:16 linaro-lxde su[2351]: pam_unix(su:session): session opened for user root by linaro(uid=1000)
+Feb 20 15:44:00 linaro-lxde su[2351]: pam_unix(su:session): session closed for user root
+Feb 20 15:44:05 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/dev ; USER=root ; COMMAND=/sbin/poweroff
+Feb 20 15:44:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 15:44:05 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:00:23 linaro-lxde sshd[2428]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:23 linaro-lxde sshd[2428]: Server listening on :: port 22.
+Jan  1 00:00:25 linaro-lxde getty[2505]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:25 linaro-lxde getty[2505]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:25 linaro-lxde getty[2505]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 00:00:27 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 00:13:35 linaro-lxde sudo: pam_unix(sudo:auth): authentication failure; logname=linaro uid=1000 euid=0 tty=/dev/pts/0 ruser=linaro rhost=  user=linaro
+Jan  1 00:13:40 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 00:13:40 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/bin/date -s 20 February 2015 16:32:00
+Jan  1 00:13:40 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 16:32:00 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 16:32:14 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get update
+Feb 20 16:32:14 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 16:33:48 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 16:42:28 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install ntp
+Feb 20 16:42:28 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 16:43:08 linaro-lxde groupadd[3430]: group added to /etc/group: name=ntp, GID=111
+Feb 20 16:43:08 linaro-lxde groupadd[3430]: group added to /etc/gshadow: name=ntp
+Feb 20 16:43:08 linaro-lxde groupadd[3430]: new group: name=ntp, GID=111
+Feb 20 16:43:08 linaro-lxde useradd[3435]: new user: name=ntp, UID=105, GID=111, home=/home/ntp, shell=/bin/false
+Feb 20 16:43:21 linaro-lxde usermod[3440]: change user 'ntp' password
+Feb 20 16:43:21 linaro-lxde chage[3445]: changed password expiry for ntp
+Feb 20 16:43:44 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 16:46:16 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Feb 20 16:46:16 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 16:46:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:00:30 linaro-lxde sshd[2488]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:30 linaro-lxde sshd[2488]: Server listening on :: port 22.
+Jan  1 00:00:32 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 00:00:32 linaro-lxde getty[2596]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:32 linaro-lxde getty[2596]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:32 linaro-lxde getty[2596]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 00:01:50 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 00:01:50 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/etc/init.d/ntp status
+Jan  1 00:01:50 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:01:50 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:01:54 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/etc/init.d/ntp stop
+Jan  1 00:01:54 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:01:54 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:02:24 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -q 1.ubuntu.pool.ntp.org
+Jan  1 00:02:24 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:02:33 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:02:53 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -q 3.ubuntu.pool.ntp.org
+Jan  1 00:02:53 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:03:02 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:03:07 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate 3.ubuntu.pool.ntp.org
+Jan  1 00:03:07 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:03:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:04:59 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/ntp.conf
+Jan  1 00:04:59 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:06:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:06:21 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate
+Jan  1 00:06:21 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:06:21 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:06:31 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/etc/init.d/ntp stop
+Jan  1 00:06:31 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:06:31 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:06:39 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate 192.168.1.35
+Jan  1 00:06:39 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:06:45 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:07:08 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -q 192.168.1.35
+Jan  1 00:07:08 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:07:14 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:07:25 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -d 192.168.1.35
+Jan  1 00:07:25 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:07:31 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:07:39 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate 192.168.1.35
+Jan  1 00:07:39 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:07:45 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:03 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/bin/vim ntpdate
+Jan  1 00:09:03 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:19 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:25 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate
+Jan  1 00:09:25 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:25 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:34 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate
+Jan  1 00:09:34 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:34 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:37 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d
+Jan  1 00:09:37 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:37 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:47 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d
+Jan  1 00:09:47 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:47 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:48 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d
+Jan  1 00:09:48 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:48 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:49 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d
+Jan  1 00:09:49 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:49 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:50 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d
+Jan  1 00:09:50 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:09:50 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:10:00 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate 192.168.1.35
+Jan  1 00:10:00 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:10:06 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:10:12 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d 192.168.1.35
+Jan  1 00:10:12 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:10:18 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:10:44 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/bin/vim ../ntp.conf
+Jan  1 00:10:44 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:12:01 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:12:15 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/etc/init.d/ntp start
+Jan  1 00:12:15 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:12:15 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:12:26 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/etc/init.d/ntp restart
+Jan  1 00:12:26 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:12:28 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:12:34 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/etc/init.d/ntp stop
+Jan  1 00:12:35 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:12:35 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:13:00 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -d 192.168.1.35
+Jan  1 00:13:00 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:13:06 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:13:19 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate 192.168.1.35
+Jan  1 00:13:19 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:13:25 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:17:01 linaro-lxde CRON[3054]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:01 linaro-lxde CRON[3054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 linaro-lxde CRON[3054]: pam_unix(cron:session): session closed for user root
+Jan  1 00:19:02 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -B -u 192.168.1.35
+Jan  1 00:19:02 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:19:08 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:19:43 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -B -u -d 192.168.1.35
+Jan  1 00:19:43 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:19:49 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:21:00 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -B -u -d 3.ubutnu.pool.ntp.org
+Jan  1 00:21:00 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:21:01 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:21:24 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -B -u -d 3.ubuntu.pool.ntp.org
+Jan  1 00:21:24 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:21:32 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:22:18 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -B -u 3.ubuntu.pool.ntp.org
+Jan  1 00:22:18 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:22:27 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:22:36 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/etc/init.d/ntp stop
+Jan  1 00:22:36 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:22:36 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:22:39 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=/usr/sbin/ntpdate -B -u 3.ubuntu.pool.ntp.org
+Jan  1 00:22:39 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:22:48 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:27:10 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/proc ; USER=root ; COMMAND=/usr/bin/find . -name independent_wallclock
+Jan  1 00:27:10 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:27:10 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:27:20 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/proc ; USER=root ; COMMAND=/usr/bin/find . -name *_wallclock
+Jan  1 00:27:20 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:27:20 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:35:52 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=./ntpdate
+Jan  1 00:35:52 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:35:53 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:36:08 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=/usr/sbin/ntpdate 192.168.1.35
+Jan  1 00:36:08 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:36:08 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:36:26 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=/etc/init.d/ntp stop
+Jan  1 00:36:26 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:36:26 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:36:40 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=./ntpdate
+Jan  1 00:36:40 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:36:40 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:37:05 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=./ntpdate 3.ubuntu.pool.ntp.org
+Jan  1 00:37:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:37:05 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:37:17 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=/etc/init.d/ntp restartr
+Jan  1 00:37:17 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:37:17 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:37:20 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=/etc/init.d/ntp restart
+Jan  1 00:37:20 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:37:23 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:37:31 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/etc/network/if-up.d ; USER=root ; COMMAND=/sbin/reboot
+Jan  1 00:37:31 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:37:31 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:00:09 linaro-lxde sshd[2430]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 linaro-lxde sshd[2430]: Server listening on :: port 22.
+Jan  1 00:00:10 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 00:00:12 linaro-lxde getty[2658]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:12 linaro-lxde getty[2658]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:12 linaro-lxde getty[2658]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 00:01:36 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 00:01:36 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/etc/init.d/ntp stop
+Jan  1 00:01:36 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:01:36 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:01:46 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -q 192.168.1.35
+Jan  1 00:01:46 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:01:52 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:01:59 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -q 192.168.1.33
+Jan  1 00:01:59 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:02:07 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:02:45 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 00:02:45 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:04:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:04:52 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -qd time.iiit.ac.in
+Jan  1 00:04:52 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:04:52 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:05:16 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/ntpdate -qd 2.ubuntu.pool.ntp.org
+Jan  1 00:05:16 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:05:26 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:06:41 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/ntpsweep
+Jan  1 00:06:41 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:06:41 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:07:01 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/etc/init.d/ntp status
+Jan  1 00:07:01 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:07:02 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:07:05 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/ntpsweep
+Jan  1 00:07:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:07:05 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:12:34 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 00:12:34 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:12:34 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:00:13 linaro-lxde sshd[2499]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:13 linaro-lxde sshd[2499]: Server listening on :: port 22.
+Jan  1 00:00:15 linaro-lxde getty[2600]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:15 linaro-lxde getty[2600]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 00:00:15 linaro-lxde getty[2600]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 00:00:25 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 00:01:43 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 00:01:43 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure tzdata
+Jan  1 00:01:43 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:02:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:04:04 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/ntpq -p
+Jan  1 00:04:04 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:04:04 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:04:36 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 00:04:36 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 00:04:36 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:24 linaro-lxde sshd[2490]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:24 linaro-lxde sshd[2490]: Server listening on :: port 22.
+Jan  1 09:00:25 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:27 linaro-lxde getty[2727]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:27 linaro-lxde getty[2727]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:27 linaro-lxde getty[2727]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:01:52 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:01:52 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:01:52 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:01:52 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:47 linaro-lxde sshd[2526]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:47 linaro-lxde sshd[2526]: Server listening on :: port 22.
+Jan  1 09:00:49 linaro-lxde getty[2604]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:49 linaro-lxde getty[2604]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:49 linaro-lxde getty[2604]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:49 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:03:06 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:03:06 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:03:06 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:03:06 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:29 linaro-lxde sshd[2488]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:29 linaro-lxde sshd[2488]: Server listening on :: port 22.
+Jan  1 09:00:31 linaro-lxde getty[2617]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:31 linaro-lxde getty[2617]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:31 linaro-lxde getty[2617]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:40 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:03:16 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:03:16 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/bin/date -s 20 February 2015 18:33:00
+Jan  1 09:03:16 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 18:33:00 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 18:34:11 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/reboot
+Feb 20 18:34:11 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 18:34:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:10 linaro-lxde sshd[2434]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:10 linaro-lxde sshd[2434]: Server listening on :: port 22.
+Jan  1 09:00:13 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:14 linaro-lxde getty[2635]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:14 linaro-lxde getty[2635]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:14 linaro-lxde getty[2635]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:01:24 linaro-lxde login[2635]: pam_unix(login:account): account linaro has password changed in future
+Jan  1 09:01:24 linaro-lxde login[2635]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:01:24 linaro-lxde login[2635]: pam_unix(login:session): session opened for user linaro by LOGIN(uid=0)
+Jan  1 09:01:25 linaro-lxde kernel: [   85.012583] systemd-logind[2866]: New seat seat0.
+Jan  1 09:01:25 linaro-lxde kernel: [   85.025289] systemd-logind[2866]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 09:01:25 linaro-lxde kernel: [   85.025374] systemd-logind[2866]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 09:01:25 linaro-lxde kernel: [   85.033800] systemd-logind[2866]: New session c1 of user linaro.
+Jan  1 09:01:34 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:01:34 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:01:47 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:01:47 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:01:51 linaro-lxde login[2635]: pam_unix(login:session): session closed for user linaro
+Jan  1 09:00:51 linaro-lxde sshd[2484]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:51 linaro-lxde sshd[2484]: Server listening on :: port 22.
+Jan  1 09:00:53 linaro-lxde getty[2613]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:53 linaro-lxde getty[2613]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:53 linaro-lxde getty[2613]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:01:02 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:07:04 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:07:04 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get install ssh
+Jan  1 09:07:04 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:07:57 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:08:17 linaro-lxde sshd[2972]: pam_unix(sshd:account): account linaro has password changed in future
+Jan  1 09:08:17 linaro-lxde sshd[2972]: Accepted password for linaro from 192.168.1.33 port 57244 ssh2
+Jan  1 09:08:17 linaro-lxde sshd[2972]: pam_unix(sshd:session): session opened for user linaro by (uid=0)
+Jan  1 09:08:17 linaro-lxde kernel: [  497.950903] systemd-logind[2975]: New seat seat0.
+Jan  1 09:08:17 linaro-lxde kernel: [  497.963988] systemd-logind[2975]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 09:08:17 linaro-lxde kernel: [  497.964068] systemd-logind[2975]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 09:08:17 linaro-lxde kernel: [  497.973781] systemd-logind[2975]: New session 1 of user linaro.
+Jan  1 09:08:18 linaro-lxde sshd[2972]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:09:00 linaro-lxde sshd[3019]: Connection closed by 192.168.1.11 [preauth]
+Jan  1 09:09:26 linaro-lxde sshd[2997]: Received disconnect from 192.168.1.33: 11: disconnected by user
+Jan  1 09:09:26 linaro-lxde sshd[2972]: pam_unix(sshd:session): session closed for user linaro
+Jan  1 09:09:42 linaro-lxde sshd[3030]: Connection closed by 192.168.1.11 [preauth]
+Jan  1 09:11:36 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/bin/date -s 20 February 2015 18:33:00
+Jan  1 09:11:36 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 18:33:00 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 18:33:41 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Feb 20 18:33:41 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Feb 20 18:34:06 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Feb 20 18:34:06 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 18:35:31 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 18:35:42 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/reboot
+Feb 20 18:35:42 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 18:35:42 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:14 linaro-lxde sshd[2453]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:14 linaro-lxde sshd[2453]: Server listening on :: port 22.
+Jan  1 09:00:15 linaro-lxde getty[2540]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:15 linaro-lxde getty[2540]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:15 linaro-lxde getty[2540]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:16 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:03:22 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:03:28 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/bin/bash da.sh
+Jan  1 09:03:28 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:15:12 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 10:16:27 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Feb 20 10:16:27 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:16:39 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 10:17:01 linaro-lxde CRON[2883]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 20 10:17:01 linaro-lxde CRON[2883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 10:17:01 linaro-lxde CRON[2883]: pam_unix(cron:session): session closed for user root
+Feb 20 10:19:11 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Feb 20 10:19:11 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:19:22 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 10:19:45 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Feb 20 10:19:45 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:20:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 10:21:42 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/reboot
+Feb 20 10:21:42 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:21:42 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:10 linaro-lxde sshd[2432]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:10 linaro-lxde sshd[2432]: Server listening on :: port 22.
+Jan  1 09:00:10 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:11 linaro-lxde getty[2606]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:11 linaro-lxde getty[2606]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:11 linaro-lxde getty[2606]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:06:05 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:06:05 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Jan  1 09:06:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:06:14 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:06:15 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Jan  1 09:06:15 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:06:23 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:06:26 linaro-lxde su[2861]: Successful su for root by linaro
+Jan  1 09:06:26 linaro-lxde su[2861]: + /dev/pts/0 linaro:root
+Jan  1 09:06:26 linaro-lxde su[2861]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:06:26 linaro-lxde su[2861]: pam_unix(su:session): session opened for user root by linaro(uid=1000)
+Jan  1 09:06:26 linaro-lxde kernel: [  386.220925] systemd-logind[2863]: New seat seat0.
+Jan  1 09:06:26 linaro-lxde kernel: [  386.232442] systemd-logind[2863]: Failed to start unit user@0.service: Unknown unit: user@0.service
+Jan  1 09:06:26 linaro-lxde kernel: [  386.232527] systemd-logind[2863]: Failed to start user service: Unknown unit: user@0.service
+Jan  1 09:06:26 linaro-lxde kernel: [  386.240774] systemd-logind[2863]: New session c1 of user root.
+Feb 20 10:17:01 linaro-lxde CRON[2897]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 20 10:17:01 linaro-lxde CRON[2897]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 10:17:01 linaro-lxde CRON[2897]: pam_unix(cron:session): session closed for user root
+Jan  1 09:00:10 linaro-lxde sshd[2432]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:10 linaro-lxde sshd[2432]: Server listening on :: port 22.
+Jan  1 09:00:12 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:13 linaro-lxde getty[2665]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:13 linaro-lxde getty[2665]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:13 linaro-lxde getty[2665]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:53 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:01:05 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/bin/bash da.sh
+Jan  1 09:01:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:15:12 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 10:17:01 linaro-lxde CRON[2862]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 20 10:17:01 linaro-lxde CRON[2862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 10:17:01 linaro-lxde CRON[2862]: pam_unix(cron:session): session closed for user root
+Feb 20 10:20:16 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Feb 20 10:20:16 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Feb 20 10:20:16 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:25 linaro-lxde sshd[2502]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:25 linaro-lxde sshd[2502]: Server listening on :: port 22.
+Jan  1 09:00:26 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:27 linaro-lxde getty[2735]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:27 linaro-lxde getty[2735]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:27 linaro-lxde getty[2735]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:03:56 linaro-lxde login[2735]: pam_unix(login:account): account linaro has password changed in future
+Jan  1 09:03:56 linaro-lxde login[2735]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:03:56 linaro-lxde login[2735]: pam_unix(login:session): session opened for user linaro by LOGIN(uid=0)
+Jan  1 09:03:56 linaro-lxde kernel: [  236.957789] systemd-logind[2858]: New seat seat0.
+Jan  1 09:03:56 linaro-lxde kernel: [  236.969487] systemd-logind[2858]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 09:03:56 linaro-lxde kernel: [  236.969566] systemd-logind[2858]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 09:03:56 linaro-lxde kernel: [  236.979403] systemd-logind[2858]: New session c1 of user linaro.
+Jan  1 09:04:25 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:04:25 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:04:44 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:04:44 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:04:47 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:04:47 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:05:45 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:05:45 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:06:28 linaro-lxde su[2891]: Successful su for root by linaro
+Jan  1 09:06:28 linaro-lxde su[2891]: + /dev/hvc0 linaro:root
+Jan  1 09:06:28 linaro-lxde su[2891]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:06:28 linaro-lxde su[2891]: pam_unix(su:session): session opened for user root by linaro(uid=1000)
+Feb 21 10:15:29 linaro-lxde sudo:     root : TTY=unknown ; PWD=/dev ; USER=root ; COMMAND=/sbin/poweroff
+Feb 21 10:15:29 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 10:15:29 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 10:15:29 linaro-lxde su[2891]: pam_unix(su:session): session closed for user root
+Jan  1 09:00:22 linaro-lxde sshd[2506]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:22 linaro-lxde sshd[2506]: Server listening on :: port 22.
+Jan  1 09:00:23 linaro-lxde getty[2604]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:23 linaro-lxde getty[2604]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:23 linaro-lxde getty[2604]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:24 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:03:25 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:03:25 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:03:25 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:03:25 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:33 linaro-lxde sshd[2429]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:33 linaro-lxde sshd[2429]: Server listening on :: port 22.
+Jan  1 09:00:34 linaro-lxde getty[2527]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:34 linaro-lxde getty[2527]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:34 linaro-lxde getty[2527]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:44 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:07:53 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:07:53 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:07:53 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:07:53 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:25 linaro-lxde sshd[2492]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:25 linaro-lxde sshd[2492]: Server listening on :: port 22.
+Jan  1 09:00:25 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:26 linaro-lxde getty[2725]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:26 linaro-lxde getty[2725]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:26 linaro-lxde getty[2725]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:02:19 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:02:19 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:02:19 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:02:19 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:19 linaro-lxde sshd[2493]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:19 linaro-lxde sshd[2493]: Server listening on :: port 22.
+Jan  1 09:00:20 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:21 linaro-lxde getty[2696]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:21 linaro-lxde getty[2696]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:21 linaro-lxde getty[2696]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:30 linaro-lxde sshd[2517]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:30 linaro-lxde sshd[2517]: Server listening on :: port 22.
+Jan  1 09:00:36 linaro-lxde getty[2617]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:36 linaro-lxde getty[2617]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:36 linaro-lxde getty[2617]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:03:01 linaro-lxde login[2617]: pam_unix(login:account): account linaro has password changed in future
+Jan  1 09:03:01 linaro-lxde login[2617]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:03:01 linaro-lxde login[2617]: pam_unix(login:session): session opened for user linaro by LOGIN(uid=0)
+Jan  1 09:03:02 linaro-lxde kernel: [  182.409199] systemd-logind[2661]: New seat seat0.
+Jan  1 09:03:02 linaro-lxde kernel: [  182.421763] systemd-logind[2661]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 09:03:02 linaro-lxde kernel: [  182.421845] systemd-logind[2661]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 09:03:02 linaro-lxde kernel: [  182.430099] systemd-logind[2661]: New session c1 of user linaro.
+Jan  1 09:03:29 linaro-lxde su[2760]: pam_unix(su:auth): authentication failure; logname=linaro uid=1000 euid=0 tty=/dev/hvc0 ruser=linaro rhost=  user=root
+Jan  1 09:03:31 linaro-lxde su[2760]: pam_authenticate: Authentication failure
+Jan  1 09:03:31 linaro-lxde su[2760]: FAILED su for root by linaro
+Jan  1 09:03:31 linaro-lxde su[2760]: - /dev/hvc0 linaro:root
+Jan  1 09:03:35 linaro-lxde su[2761]: Successful su for root by linaro
+Jan  1 09:03:35 linaro-lxde su[2761]: + /dev/hvc0 linaro:root
+Jan  1 09:03:35 linaro-lxde su[2761]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:03:35 linaro-lxde su[2761]: pam_unix(su:session): session opened for user root by linaro(uid=1000)
+Jan  1 09:04:36 linaro-lxde su[2761]: pam_unix(su:session): session closed for user root
+Jan  1 09:04:39 linaro-lxde sudo: pam_unix(sudo:auth): conversation failed
+Jan  1 09:04:39 linaro-lxde sudo: pam_unix(sudo:auth): auth could not identify password for [linaro]
+Jan  1 09:04:46 linaro-lxde su[2787]: Successful su for root by linaro
+Jan  1 09:04:46 linaro-lxde su[2787]: + /dev/hvc0 linaro:root
+Jan  1 09:04:46 linaro-lxde su[2787]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:04:46 linaro-lxde su[2787]: pam_unix(su:session): session opened for user root by linaro(uid=1000)
+Jan  1 09:04:48 linaro-lxde su[2787]: pam_unix(su:session): session closed for user root
+Jan  1 09:00:20 linaro-lxde sshd[2501]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:20 linaro-lxde sshd[2501]: Server listening on :: port 22.
+Jan  1 09:00:22 linaro-lxde getty[2601]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:22 linaro-lxde getty[2601]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:22 linaro-lxde getty[2601]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:22 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:01:28 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:01:28 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:01:28 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:01:28 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:41 linaro-lxde sshd[2494]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:41 linaro-lxde sshd[2494]: Server listening on :: port 22.
+Jan  1 09:00:43 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:44 linaro-lxde getty[2729]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:44 linaro-lxde getty[2729]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:44 linaro-lxde getty[2729]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:04:54 linaro-lxde sudo: pam_unix(sudo:auth): authentication failure; logname=linaro uid=1000 euid=0 tty=/dev/pts/2 ruser=linaro rhost=  user=linaro
+Jan  1 09:05:01 linaro-lxde sudo:   linaro : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:05:07 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:05:07 linaro-lxde sudo:   linaro : TTY=pts/2 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:05:07 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:05:07 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:28 linaro-lxde sshd[2503]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:28 linaro-lxde sshd[2503]: Server listening on :: port 22.
+Jan  1 09:00:29 linaro-lxde getty[2635]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:29 linaro-lxde getty[2635]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:29 linaro-lxde getty[2635]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:32 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:04:00 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:04:00 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 09:04:00 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:08:10 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:08:27 linaro-lxde sudo: pam_unix(sudo:auth): authentication failure; logname=linaro uid=1000 euid=0 tty=/dev/pts/1 ruser=linaro rhost=  user=linaro
+Jan  1 09:08:39 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:08:39 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:08:39 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:08:40 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:24 linaro-lxde sshd[2507]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:24 linaro-lxde sshd[2507]: Server listening on :: port 22.
+Jan  1 09:00:25 linaro-lxde getty[2604]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:25 linaro-lxde getty[2604]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:25 linaro-lxde getty[2604]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:27 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:04:14 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:04:14 linaro-lxde sudo:   linaro : TTY=pts/0 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:04:14 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:04:14 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:27 linaro-lxde sshd[2504]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:27 linaro-lxde sshd[2504]: Server listening on :: port 22.
+Jan  1 09:00:28 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:00:29 linaro-lxde getty[2737]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:29 linaro-lxde getty[2737]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:29 linaro-lxde getty[2737]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:04:05 linaro-lxde sudo: pam_unix(sudo:account): account linaro has password changed in future
+Jan  1 09:04:05 linaro-lxde sudo:   linaro : TTY=pts/1 ; PWD=/home/linaro ; USER=root ; COMMAND=/sbin/poweroff
+Jan  1 09:04:05 linaro-lxde sudo: pam_unix(sudo:session): session opened for user root by linaro(uid=0)
+Jan  1 09:04:05 linaro-lxde sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 09:00:20 linaro-lxde sshd[2443]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:20 linaro-lxde sshd[2443]: Server listening on :: port 22.
+Jan  1 09:00:25 linaro-lxde getty[2546]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:25 linaro-lxde getty[2546]: /dev/hvc0: cannot get controlling tty: Operation not permitted
+Jan  1 09:00:25 linaro-lxde getty[2546]: /dev/hvc0: cannot set process group: Inappropriate ioctl for device
+Jan  1 09:00:26 linaro-lxde lxdm-binary: pam_unix(lxdm:session): session opened for user linaro by (uid=0)
+Jan  1 09:03:26 linaro-lxde login[2546]: pam_unix(login:account): account linaro has password changed in future
+Jan  1 09:03:26 linaro-lxde login[2546]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:03:26 linaro-lxde login[2546]: pam_unix(login:session): session opened for user linaro by LOGIN(uid=0)
+Jan  1 09:03:26 linaro-lxde kernel: [  207.202813] systemd-logind[2867]: New seat seat0.
+Jan  1 09:03:26 linaro-lxde kernel: [  207.217976] systemd-logind[2867]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+Jan  1 09:03:26 linaro-lxde kernel: [  207.218053] systemd-logind[2867]: Failed to start user service: Unknown unit: user@1000.service
+Jan  1 09:03:26 linaro-lxde kernel: [  207.229450] systemd-logind[2867]: New session c1 of user linaro.
+Jan  1 09:17:01 linaro-lxde CRON[2896]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:17:01 linaro-lxde CRON[2896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:17:01 linaro-lxde CRON[2896]: pam_unix(cron:session): session closed for user root
+Jan  1 09:54:42 linaro-lxde su[2916]: pam_unix(su:auth): authentication failure; logname=linaro uid=1000 euid=0 tty=/dev/hvc0 ruser=linaro rhost=  user=root
+Jan  1 09:54:44 linaro-lxde su[2916]: pam_authenticate: Authentication failure
+Jan  1 09:54:44 linaro-lxde su[2916]: FAILED su for root by linaro
+Jan  1 09:54:44 linaro-lxde su[2916]: - /dev/hvc0 linaro:root
+Jan  1 09:54:50 linaro-lxde su[2917]: Successful su for root by linaro
+Jan  1 09:54:50 linaro-lxde su[2917]: + /dev/hvc0 linaro:root
+Jan  1 09:54:50 linaro-lxde su[2917]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 09:54:50 linaro-lxde su[2917]: pam_unix(su:session): session opened for user root by linaro(uid=1000)
+Jan  1 09:54:53 linaro-lxde su[2917]: pam_unix(su:session): session closed for user root
+Jan  1 09:00:26 linaro-lxde sshd[2509]: Server listening on 0.0.0.0 port 22.
+Jan  1 09:00:26 linaro-lxde sshd[2509]: Server listening on :: port 22.
+Jan  1 09:00:30 linaro-lxde getty[2605]: /dev/hvc0: No such file or directory

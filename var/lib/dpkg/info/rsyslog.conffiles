@@ -1,0 +1,8 @@
+/etc/init/dmesg.conf
+/etc/init/rsyslog.conf
+/etc/logrotate.d/rsyslog
+/etc/init.d/rsyslog
+/etc/rsyslog.conf
+/etc/apparmor.d/usr.sbin.rsyslogd
+/etc/default/rsyslog
+/etc/logcheck/ignore.d.server/rsyslog

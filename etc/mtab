@@ -1,0 +1,12 @@
+/dev/root / ext4 rw 0 0
+none /proc proc rw,nodev,noexec,nosuid 0 0
+none /sys sysfs rw,nodev,noexec,nosuid 0 0
+none /dev/pts devpts rw,noexec,nosuid,gid=5,mode=0620 0 0
+none /proc/sys/fs/binfmt_misc binfmt_misc rw,nodev,noexec,nosuid 0 0
+none /sys/fs/fuse/connections fusectl rw 0 0
+none /sys/kernel/debug debugfs rw 0 0
+none /run tmpfs rw,noexec,nosuid,size=10%,mode=0755 0 0
+xenfs /proc/xen xenfs rw 0 0
+none /run/lock tmpfs rw,nodev,noexec,nosuid,size=5242880 0 0
+none /run/shm tmpfs rw,nosuid,nodev 0 0
+none /run/user tmpfs rw,nodev,noexec,nosuid,size=104857600,mode=0755 0 0
