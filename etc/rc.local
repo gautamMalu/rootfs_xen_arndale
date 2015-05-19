@@ -10,9 +10,4 @@
 # bits.
 #
 # By default this script does nothing.
-sleep 1s
-/sbin/getty -8 115200 hvc0
-#sleep 1s
-#bash /home/linaro/da.sh
-#date -s "21 February 2015 10:35:36"
 exit 0
